@@ -1,0 +1,8 @@
+version: 1
+datastore:
+  user: tony
+  password: Password
+  hostname: 127.0.0.1
+  port: 3306
+  db: fitness-app
+
