@@ -3,7 +3,7 @@ import yaml
 import connexion
 import functools
 from datetime import datetime
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, select
 from sqlalchemy.orm import sessionmaker
 from connexion import NoContent
 from models import Base, Meal, Exercise
@@ -70,6 +70,21 @@ def process_meal_batch(session, body):
     return NoContent, 201
 
 @use_db_session
+def get_meal_reading(session, start_timestamp, end_timestamp):
+    start = datetime(start_timestamp)
+    end = datetime(end_timestamp)
+
+    statement = select(Meal).where(Meal.record_timestamp >= start).where(Exercise.record_timestamp < end)
+    res = [
+        meal for meal in session.execute(statement).scalars().all()
+    ]
+
+    session.close()
+    logger.debug("Found %d meal readings (start: %s, end: %s)", len(res), start, end)
+    return res
+
+
+@use_db_session
 def process_exercise_batch(session, body):
     trace_id=body.get('trace_id')
     logger.info(f"Received event exercise_report with a trace id of {trace_id}")
@@ -107,7 +122,7 @@ def get_exercise_reading(session, start_timestamp, end_timestamp):
 
     session.close()
     logger.debug("Found %d exercise readings (start: %s, end: %s)", len(res), start, end)
-    return results
+    return res, 200
 
 
 app = connexion.FlaskApp(__name__, specification_dir="")
