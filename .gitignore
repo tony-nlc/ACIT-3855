@@ -1,5 +1,7 @@
 venv
+.venv
 *.db
 __pycache__
 path
 .log
+.json
