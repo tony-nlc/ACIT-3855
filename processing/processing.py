@@ -4,7 +4,6 @@ import requests
 import yaml
 import logging
 import logging.config
-from apscheduler.schedulers.background import BackgroundScheduler
 import json
 import os
 from datetime import datetime
@@ -74,6 +73,33 @@ def populate_stats():
     logger.info("Periodic processing finished")
 
 
+def get_health_stats():
+    """ Get current statistics """
+    logger.info("Request for statistics has started")
+    
+    # Check if stats file exists
+    if not os.path.exists(STATS_FILE):
+        logger.error(f"Statistics file {STATS_FILE} does not exist")
+        return {"message": "Statistics do not exist"}, 404
+    
+    # Read statistics from file
+    try:
+        with open(STATS_FILE, 'r') as f:
+            stats = json.load(f)
+        
+        # Log the contents as DEBUG
+        logger.debug(f"Statistics content: {stats}")
+        
+        # Log completion
+        logger.info("Request for statistics has completed")
+        
+        # Return statistics with 200 status
+        return stats, 200
+        
+    except Exception as e:
+        logger.error(f"Error reading statistics file: {e}")
+        return {"message": "Statistics do not exist"}, 404
+    
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("openapi.yaml",
             strict_validation=True,
