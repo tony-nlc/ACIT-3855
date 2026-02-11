@@ -13,6 +13,8 @@ from datetime import datetime
 with open('app_conf.yaml', 'r') as f:
     app_config = yaml.safe_load(f.read())
 
+logger = logging.getLogger('basicLogger')
+
 # Path to your stats JSON file
 STATS_FILE = app_config['datastore']['filename']
 
@@ -71,9 +73,11 @@ def populate_stats():
     
     logger.info("Periodic processing finished")
 
-# Connexion app setup
+
 app = connexion.FlaskApp(__name__, specification_dir='')
-# ... add your API/routes here ...
+app.add_api("openapi.yaml",
+            strict_validation=True,
+            validate_responses=True)
 
 if __name__ == "__main__":
     init_scheduler()
