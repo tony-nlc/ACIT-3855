@@ -18,7 +18,7 @@ STATS_FILE = app_config['datastore']['filename']
 
 def init_scheduler():
     sched = BackgroundScheduler(daemon=True)
-    sched.add_job(populate_stats, 'interval', seconds=app_config['scheduler']['period_sec'])
+    sched.add_job(populate_stats, 'interval', seconds=app_config['scheduler']['interval'])
     sched.start()
 
 def populate_stats():
