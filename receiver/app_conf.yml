@@ -3,3 +3,7 @@ eventstore1:
   url: http://localhost:8090/exercises
 eventstore2:
   url: http://localhost:8090/meals
+events:
+  hostname: localhost
+  port: 9092
+  topic: events 

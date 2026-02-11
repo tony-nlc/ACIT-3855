@@ -31,18 +31,18 @@ def populate_stats():
     """ Periodically processing events """
     logger.info("Start Periodic Processing")
     
-    # 1. Load current stats from file (or defaults if file doesn't exist)
-    if os.path.exists(STATS_FILE):
-        with open(STATS_FILE, 'r') as f:
-            stats = json.load(f)
-    else:
-        stats = {
+    stats = {
             "num_meals": 0,
             "num_exercises": 0,
             "max_meal_calories": 0,
             "avg_exercise_duration": 0,
             "last_updated": "2020-01-01T00:00:00Z"
-        }
+    }
+    
+    # 1. Load current stats from file (or defaults if file doesn't exist)
+    if os.path.exists(STATS_FILE):
+        with open(STATS_FILE, 'r') as f:
+            stats = json.load(f)
 
     current_timestamp = datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
     last_updated = stats['last_updated']
