@@ -8,7 +8,7 @@ paths:
   /stats:
     get:
       summary: Retreives health statistics
-      operationId: app.get_health_stats
+      operationId: processing.get_health_stats
       responses:
         '200':
           description: Successfully returned statistics
