@@ -48,7 +48,7 @@ def populate_stats():
     last_updated = stats['last_updated']
 
     # 2. Call Storage Service for NEW events since last_updated
-    storage_url = app_config['eventstore']['url']
+    storage_url = app_config['eventstores']['url']
     
     # Fetch Meals
     meal_res = requests.get(f"{storage_url}/meals?start_timestamp={last_updated}&end_timestamp={current_timestamp}")
