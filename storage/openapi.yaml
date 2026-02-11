@@ -20,7 +20,35 @@ paths:
           description: Batch successfully received
         '400':
           description: Invalid batch format
-
+    get:
+      summary: gets new meals marconutrients reading
+      operationId: storage.get_meals_reading
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: start of the timespan
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: end of the timespan
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '200':
+          description: successfully returned a list of meal marconutrients
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Meal'
+        '400':
+          description: Invalid batch format
   /exercises:
     post:
       summary: Report a batch of exercise events
@@ -36,7 +64,35 @@ paths:
           description: Batch successfully received
         '400':
           description: Invalid batch format
-
+    get:
+      summary: gets new exercise reading
+      operationId: storage.get_exercise_reading
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: start of the timespan
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: end of the timespan
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        '200':
+          description: successfully returned a list of exercise
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Exercise'
+        '400':
+          description: Invalid batch format
 components:
   schemas:
     Meal:

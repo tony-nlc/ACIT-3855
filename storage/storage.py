@@ -95,6 +95,21 @@ def process_exercise_batch(session, body):
     return NoContent, 201
 
 
+@use_db_session
+def get_exercise_reading(session, start_timestamp, end_timestamp):
+    start = datetime(start_timestamp)
+    end = datetime(end_timestamp)
+
+    statement = select(Exercise).where(Exercise.record_timestamp >= start).where(Exercise.record_timestamp < end)
+    res = [
+        exercise for exercise in session.execute(statement).scalars().all()
+    ]
+
+    session.close()
+    logger.debug("Found %d exercise readings (start: %s, end: %s)", len(res), start, end)
+    return results
+
+
 app = connexion.FlaskApp(__name__, specification_dir="")
 app.add_api("openapi.yaml",
             strict_validation=True,
