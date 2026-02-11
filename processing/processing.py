@@ -4,6 +4,7 @@ import requests
 import yaml
 import logging
 import logging.config
+from apscheduler.schedulers.background import BackgroundScheduler
 import json
 import os
 from datetime import datetime
@@ -43,7 +44,7 @@ def populate_stats():
     last_updated = stats['last_updated']
 
     # 2. Call Storage Service for NEW events since last_updated
-    storage_url = app_config['eventstores']['url']
+    storage_url = app_config['eventstore']['url']
     
     # Fetch Meals
     meal_res = requests.get(f"{storage_url}/meals?start_timestamp={last_updated}&end_timestamp={current_timestamp}")
