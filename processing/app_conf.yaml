@@ -4,7 +4,4 @@ datastore:
 scheduler:
     interval: 5
 eventstores:
-  meals:
-    url: http://localhost:8090/meals
-  exercises:
-    url: http://localhost:8090/exercises
+  url: http://localhost:8090
