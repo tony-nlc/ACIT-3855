@@ -36,7 +36,7 @@ paths:
           description: Batch successfully received
         '400':
           description: Invalid batch format
-
+  
 components:
   schemas:
     # --- BATCH WRAPPERS ---

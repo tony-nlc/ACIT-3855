@@ -1,0 +1,56 @@
+openapi: 3.0.0
+info:
+  title: Health Processing API
+  description: Periodically processes health events and provides summary statistics.
+  version: 1.0.0
+
+paths:
+  /stats:
+    get:
+      summary: Retreives health statistics
+      operationId: app.get_health_stats
+      responses:
+        '200':
+          description: Successfully returned statistics
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Stats'
+        '405':
+          description: Method Not Allowed
+        '500':
+          description: Server Error
+
+components:
+  schemas:
+    Stats:
+      type: object
+      required:
+        - num_meals
+        - num_exercises
+        - max_meal_calories
+        - avg_exercise_duration
+        - last_updated
+      properties:
+        num_meals:
+          type: integer
+          example: 15
+          description: Cumulative number of meal events received
+        num_exercises:
+          type: integer
+          example: 8
+          description: Cumulative number of exercise events received
+        max_meal_calories:
+          type: integer
+          example: 850
+          description: Maximum value of calories across all meal events
+        avg_exercise_duration:
+          type: number
+          format: float
+          example: 45.5
+          description: Rolling average duration of exercise sessions
+        last_updated:
+          type: string
+          format: date-time
+          example: "2026-02-10T19:34:15Z"
+          description: The timestamp of the last time the stats were updated
