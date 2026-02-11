@@ -1,10 +1,10 @@
 version: 1
 datastore:
   filename: data.json
-  scheduler:
-  interval: 5
-  eventstores:
-    meals:
-      url: http://localhost:8090/meals
-    exercises:
-      url: http://localhost:8090/exercises
+scheduler:
+    interval: 5
+eventstores:
+  meals:
+    url: http://localhost:8090/meals
+  exercises:
+    url: http://localhost:8090/exercises
