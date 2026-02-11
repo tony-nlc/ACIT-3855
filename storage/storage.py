@@ -70,18 +70,18 @@ def process_meal_batch(session, body):
     return NoContent, 201
 
 @use_db_session
-def get_meal_reading(session, start_timestamp, end_timestamp):
-    start = datetime(start_timestamp)
-    end = datetime(end_timestamp)
+def get_meals_reading(session, start_timestamp, end_timestamp): # Renamed to match OpenAPI
+    # Convert string timestamps to datetime objects
+    start = datetime.fromisoformat(start_timestamp.replace('Z', '+00:00'))
+    end = datetime.fromisoformat(end_timestamp.replace('Z', '+00:00'))
 
-    statement = select(Meal).where(Meal.record_timestamp >= start).where(Exercise.record_timestamp < end)
-    res = [
-        meal for meal in session.execute(statement).scalars().all()
-    ]
+    statement = select(Meal).where(Meal.record_timestamp >= start).where(Meal.record_timestamp < end)
+    results = session.execute(statement).scalars().all()
 
-    session.close()
-    logger.debug("Found %d meal readings (start: %s, end: %s)", len(res), start, end)
-    return res
+    res_list = [meal.to_dict() for meal in results]
+
+    logger.debug("Found %d meal readings (start: %s, end: %s)", len(res_list), start, end)
+    return res_list, 200
 
 
 @use_db_session
@@ -112,17 +112,16 @@ def process_exercise_batch(session, body):
 
 @use_db_session
 def get_exercise_reading(session, start_timestamp, end_timestamp):
-    start = datetime(start_timestamp)
-    end = datetime(end_timestamp)
+    start = datetime.fromisoformat(start_timestamp.replace('Z', '+00:00'))
+    end = datetime.fromisoformat(end_timestamp.replace('Z', '+00:00'))
 
     statement = select(Exercise).where(Exercise.record_timestamp >= start).where(Exercise.record_timestamp < end)
-    res = [
-        exercise for exercise in session.execute(statement).scalars().all()
-    ]
+    results = session.execute(statement).scalars().all()
 
-    session.close()
-    logger.debug("Found %d exercise readings (start: %s, end: %s)", len(res), start, end)
-    return res, 200
+    res_list = [ex.to_dict() for ex in results]
+
+    logger.debug("Found %d exercise readings (start: %s, end: %s)", len(res_list), start, end)
+    return res_list, 200
 
 
 app = connexion.FlaskApp(__name__, specification_dir="")

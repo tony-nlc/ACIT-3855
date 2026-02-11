@@ -17,7 +17,14 @@ class Exercise(Base):
     duration_min = mapped_column(Integer)
     avg_heart_rate = mapped_column(Integer)
     peak_heart_rate = mapped_column(Integer, nullable=True)
-
+    
+    def to_dict(self):
+            dict_rec = self.__dict__.copy()
+            if '_sa_instance_state' in dict_rec:
+                del dict_rec['_sa_instance_state']
+            dict_rec['record_timestamp'] = self.record_timestamp.strftime("%Y-%m-%dT%H:%M:%S")
+            dict_rec['batch_timestamp'] = self.batch_timestamp.strftime("%Y-%m-%dT%H:%M:%S")
+            return dict_rec
 class Meal(Base):
     __tablename__ = "meal"
     id = mapped_column(Integer, primary_key=True)
@@ -32,4 +39,11 @@ class Meal(Base):
     carbs_g = mapped_column(Integer, nullable=True)
     protein_g = mapped_column(Integer, nullable=True)
     fat_g = mapped_column(Integer, nullable=True)
-
+    
+    def to_dict(self):
+            dict_rec = self.__dict__.copy()
+            if '_sa_instance_state' in dict_rec:
+                del dict_rec['_sa_instance_state']
+            dict_rec['record_timestamp'] = self.record_timestamp.strftime("%Y-%m-%dT%H:%M:%S")
+            dict_rec['batch_timestamp'] = self.batch_timestamp.strftime("%Y-%m-%dT%H:%M:%S")
+            return dict_rec
