@@ -6,20 +6,6 @@ info:
 
 paths:
   /meals:
-    post:
-      summary: Report a batch of meal events
-      operationId: storage.process_meal_batch
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/Meal'
-      responses:
-        '201':
-          description: Batch successfully received
-        '400':
-          description: Invalid batch format
     get:
       summary: gets new meals marconutrients reading
       operationId: storage.get_meals_reading
@@ -50,20 +36,6 @@ paths:
         '400':
           description: Invalid batch format
   /exercises:
-    post:
-      summary: Report a batch of exercise events
-      operationId: storage.process_exercise_batch
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/Exercise'
-      responses:
-        '201':
-          description: Batch successfully received
-        '400':
-          description: Invalid batch format
     get:
       summary: gets new exercise reading
       operationId: storage.get_exercise_reading

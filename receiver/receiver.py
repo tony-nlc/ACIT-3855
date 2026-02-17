@@ -7,6 +7,7 @@ import json
 import logging.config
 from pykafka import KafkaClient
 import os
+
 base_dir = os.path.dirname(os.path.abspath(__file__))
 app_config_path = os.path.join(base_dir, 'app_conf.yaml')
 log_config_path = os.path.join(base_dir, 'log_conf.yml')
