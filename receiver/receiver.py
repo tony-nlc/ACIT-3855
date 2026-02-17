@@ -6,14 +6,17 @@ import yaml
 import json
 import logging.config
 from pykafka import KafkaClient
+import os
+base_dir = os.path.dirname(os.path.abspath(__file__))
+app_config_path = os.path.join(base_dir, 'app_conf.yaml')
+log_config_path = os.path.join(base_dir, 'log_conf.yml')
 
-with open('./app_conf.yml', 'r') as f:
+with open(app_config_path, 'r') as f:
     app_config = yaml.safe_load(f.read())
 
-with open("./conf_log.yml", "r") as f:
-    LOG_CONFIG = yaml.safe_load(f.read())
-    logging.config.dictConfig(LOG_CONFIG)
-
+with open(log_config_path, 'r') as f:
+    log_config = yaml.safe_load(f.read())
+    logging.config.dictConfig(log_config)
 logger = logging.getLogger('basicLogger')
 
 # Initialize Kafka Client
