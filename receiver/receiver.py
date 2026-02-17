@@ -1,13 +1,14 @@
 import connexion
 from connexion import NoContent
-import httpx
 import uuid
-import time
+import datetime
 import yaml
+import json
 import logging.config
+from pykafka import KafkaClient
+
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
-    print(app_config)
 
 with open("conf_log.yml", "r") as f:
     LOG_CONFIG = yaml.safe_load(f.read())
@@ -15,50 +16,51 @@ with open("conf_log.yml", "r") as f:
 
 logger = logging.getLogger('basicLogger')
 
+# Initialize Kafka Client
+# Accessing config values: e.g., app_config['events']['hostname']
+kafka_server = f"{app_config['events']['hostname']}:{app_config['events']['port']}"
+client = KafkaClient(hosts=kafka_server)
+topic = client.topics[str.encode(app_config['events']['topic'])]
+producer = topic.get_sync_producer()
+
 def process_meal_batch(body):
-    user_id = body.get("user_id")
-    device = body.get("source_device")
-    batch_ts = body.get("timestamp")
-    
-    items = body.get("items", [])
-    for meal in items:
-        # Add the missing batch-level info to the individual item
-        meal['user_id'] = user_id
-        meal['trace_id'] = str(uuid.uuid4())
-        meal['source_device'] = device
-        meal['batch_timestamp'] = batch_ts
-        # Map 'timestamp' from item to 'record_timestamp' for storage
-        meal['record_timestamp'] = meal.pop('timestamp') 
-        httpx.post(app_config['eventstore2']['url'], json=meal)
-    
+    """ Process a batch of meal events and push to Kafka """
+    process_events(body, "meal")
     return NoContent, 201
 
 def process_exercise_batch(body):
-    # These are the 'global' values from the batch
+    """ Process a batch of exercise events and push to Kafka """
+    process_events(body, "exercise")
+    return NoContent, 201
+
+def process_events(body, event_type):
+    """ Helper to format and produce messages to Kafka """
     user_id = body.get("user_id")
     device = body.get("source_device")
     batch_ts = body.get("timestamp")
-    
     items = body.get("items", [])
-    
-    for exercise in items:
 
-        # Inject the missing 'required' fields for the Storage API
-        exercise['user_id'] = user_id
-        exercise['trace_id'] = str(uuid.uuid4())
-        exercise['source_device'] = device
-        exercise['batch_timestamp'] = batch_ts
-        
-        # Mapping the field name to match 'record_timestamp' in YAML
-        if 'timestamp' in exercise:
-            exercise['record_timestamp'] = exercise.pop('timestamp')
+    for item in items:
+        # 1. Prepare the payload
+        trace_id = str(uuid.uuid4())
+        item['user_id'] = user_id
+        item['trace_id'] = trace_id
+        item['source_device'] = device
+        item['batch_timestamp'] = batch_ts
+        item['record_timestamp'] = item.pop('timestamp', None)
 
-        # Log exactly what we are about to send to debug the 400
-        logger.debug(f"Sending to storage: {exercise}")
-        # Send the individual exercise object
-        response = httpx.post(app_config['eventstore1']['url'], json=exercise)
+        # 2. Construct the Kafka message wrapper
+        msg = {
+            "type": event_type,
+            "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%f"),
+            "payload": item
+        }
+
+        # 3. Produce to Kafka
+        msg_str = json.dumps(msg)
+        producer.produce(msg_str.encode('utf-8'))
         
-    return NoContent, 201
+        logger.info(f"Produced {event_type} event with trace_id: {trace_id}")
 
 app = connexion.FlaskApp(__name__, specification_dir="")
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
