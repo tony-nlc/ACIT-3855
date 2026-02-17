@@ -9,10 +9,13 @@ import json
 import os
 from datetime import datetime
 
-with open('./app_conf.yaml', 'r') as f:
+base_dir = os.path.dirname(os.path.abspath(__file__))
+app_config_path = os.path.join(base_dir, 'app_conf.yaml')
+log_config_path = os.path.join(base_dir, 'log_conf.yml')
+with open(app_config_path, 'r') as f:
     app_config = yaml.safe_load(f.read())
 
-with open('./log_conf.yml', 'r') as f:
+with open(log_config_path, 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
     

@@ -610,3 +610,778 @@
 2026-02-11 10:27:57,087 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:27:52+00:00, end: 2026-02-11 10:27:57+00:00)
 2026-02-11 10:28:02,070 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:27:57+00:00, end: 2026-02-11 10:28:02+00:00)
 2026-02-11 10:28:02,079 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:27:57+00:00, end: 2026-02-11 10:28:02+00:00)
+2026-02-11 10:32:27,232 - basicLogger - DEBUG - Found 0 meal readings (start: 2020-01-01 00:00:00+00:00, end: 2026-02-11 10:32:27+00:00)
+2026-02-11 10:32:27,248 - basicLogger - DEBUG - Found 0 exercise readings (start: 2020-01-01 00:00:00+00:00, end: 2026-02-11 10:32:27+00:00)
+2026-02-11 10:32:34,893 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:32:27+00:00, end: 2026-02-11 10:32:34+00:00)
+2026-02-11 10:32:34,929 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:32:27+00:00, end: 2026-02-11 10:32:34+00:00)
+2026-02-11 10:32:39,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:32:34+00:00, end: 2026-02-11 10:32:39+00:00)
+2026-02-11 10:32:39,940 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:32:34+00:00, end: 2026-02-11 10:32:39+00:00)
+2026-02-11 10:32:44,889 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:32:39+00:00, end: 2026-02-11 10:32:44+00:00)
+2026-02-11 10:32:44,918 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:32:39+00:00, end: 2026-02-11 10:32:44+00:00)
+2026-02-11 10:32:49,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:32:44+00:00, end: 2026-02-11 10:32:49+00:00)
+2026-02-11 10:32:49,903 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:32:44+00:00, end: 2026-02-11 10:32:49+00:00)
+2026-02-11 10:32:54,874 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:32:49+00:00, end: 2026-02-11 10:32:54+00:00)
+2026-02-11 10:32:54,892 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:32:49+00:00, end: 2026-02-11 10:32:54+00:00)
+2026-02-11 10:32:59,865 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:32:54+00:00, end: 2026-02-11 10:32:59+00:00)
+2026-02-11 10:32:59,873 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:32:54+00:00, end: 2026-02-11 10:32:59+00:00)
+2026-02-11 10:33:04,891 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:32:59+00:00, end: 2026-02-11 10:33:04+00:00)
+2026-02-11 10:33:04,929 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:32:59+00:00, end: 2026-02-11 10:33:04+00:00)
+2026-02-11 10:33:09,868 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:33:04+00:00, end: 2026-02-11 10:33:09+00:00)
+2026-02-11 10:33:09,881 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:33:04+00:00, end: 2026-02-11 10:33:09+00:00)
+2026-02-11 10:33:10,142 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-01-31 09:12:33.001000+00:00, end: 2026-02-10 09:12:33.001000+00:00)
+2026-02-11 10:33:14,912 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:33:09+00:00, end: 2026-02-11 10:33:14+00:00)
+2026-02-11 10:33:14,935 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:33:09+00:00, end: 2026-02-11 10:33:14+00:00)
+2026-02-11 10:33:19,869 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:33:14+00:00, end: 2026-02-11 10:33:19+00:00)
+2026-02-11 10:33:19,879 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:33:14+00:00, end: 2026-02-11 10:33:19+00:00)
+2026-02-11 10:33:24,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:33:19+00:00, end: 2026-02-11 10:33:24+00:00)
+2026-02-11 10:33:24,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:33:19+00:00, end: 2026-02-11 10:33:24+00:00)
+2026-02-11 10:33:29,866 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:33:24+00:00, end: 2026-02-11 10:33:29+00:00)
+2026-02-11 10:33:29,876 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:33:24+00:00, end: 2026-02-11 10:33:29+00:00)
+2026-02-11 10:33:34,879 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:33:29+00:00, end: 2026-02-11 10:33:34+00:00)
+2026-02-11 10:33:34,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:33:29+00:00, end: 2026-02-11 10:33:34+00:00)
+2026-02-11 10:33:39,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:33:34+00:00, end: 2026-02-11 10:33:39+00:00)
+2026-02-11 10:33:39,913 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:33:34+00:00, end: 2026-02-11 10:33:39+00:00)
+2026-02-11 10:33:44,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:33:39+00:00, end: 2026-02-11 10:33:44+00:00)
+2026-02-11 10:33:44,914 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:33:39+00:00, end: 2026-02-11 10:33:44+00:00)
+2026-02-11 10:33:49,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:33:44+00:00, end: 2026-02-11 10:33:49+00:00)
+2026-02-11 10:33:49,907 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:33:44+00:00, end: 2026-02-11 10:33:49+00:00)
+2026-02-11 10:33:54,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:33:49+00:00, end: 2026-02-11 10:33:54+00:00)
+2026-02-11 10:33:54,908 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:33:49+00:00, end: 2026-02-11 10:33:54+00:00)
+2026-02-11 10:33:59,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:33:54+00:00, end: 2026-02-11 10:33:59+00:00)
+2026-02-11 10:33:59,901 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:33:54+00:00, end: 2026-02-11 10:33:59+00:00)
+2026-02-11 10:34:04,870 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:33:59+00:00, end: 2026-02-11 10:34:04+00:00)
+2026-02-11 10:34:04,883 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:33:59+00:00, end: 2026-02-11 10:34:04+00:00)
+2026-02-11 10:34:09,417 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-01-31 09:12:33.001000+00:00, end: 2026-02-10 09:12:33.001000+00:00)
+2026-02-11 10:34:09,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:34:04+00:00, end: 2026-02-11 10:34:09+00:00)
+2026-02-11 10:34:09,908 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:34:04+00:00, end: 2026-02-11 10:34:09+00:00)
+2026-02-11 10:34:10,240 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-01-31 09:12:33.001000+00:00, end: 2026-02-10 09:12:33.001000+00:00)
+2026-02-11 10:34:14,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:34:09+00:00, end: 2026-02-11 10:34:14+00:00)
+2026-02-11 10:34:14,900 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:34:09+00:00, end: 2026-02-11 10:34:14+00:00)
+2026-02-11 10:34:19,887 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:34:14+00:00, end: 2026-02-11 10:34:19+00:00)
+2026-02-11 10:34:19,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:34:14+00:00, end: 2026-02-11 10:34:19+00:00)
+2026-02-11 10:34:24,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:34:19+00:00, end: 2026-02-11 10:34:24+00:00)
+2026-02-11 10:34:24,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:34:19+00:00, end: 2026-02-11 10:34:24+00:00)
+2026-02-11 10:34:29,893 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:34:24+00:00, end: 2026-02-11 10:34:29+00:00)
+2026-02-11 10:34:29,926 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:34:24+00:00, end: 2026-02-11 10:34:29+00:00)
+2026-02-11 10:34:34,878 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:34:29+00:00, end: 2026-02-11 10:34:34+00:00)
+2026-02-11 10:34:34,897 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:34:29+00:00, end: 2026-02-11 10:34:34+00:00)
+2026-02-11 10:34:39,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:34:34+00:00, end: 2026-02-11 10:34:39+00:00)
+2026-02-11 10:34:39,911 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:34:34+00:00, end: 2026-02-11 10:34:39+00:00)
+2026-02-11 10:34:44,877 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:34:39+00:00, end: 2026-02-11 10:34:44+00:00)
+2026-02-11 10:34:44,896 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:34:39+00:00, end: 2026-02-11 10:34:44+00:00)
+2026-02-11 10:34:49,890 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:34:44+00:00, end: 2026-02-11 10:34:49+00:00)
+2026-02-11 10:34:49,923 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:34:44+00:00, end: 2026-02-11 10:34:49+00:00)
+2026-02-11 10:34:54,886 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:34:49+00:00, end: 2026-02-11 10:34:54+00:00)
+2026-02-11 10:34:54,919 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:34:49+00:00, end: 2026-02-11 10:34:54+00:00)
+2026-02-11 10:34:59,887 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:34:54+00:00, end: 2026-02-11 10:34:59+00:00)
+2026-02-11 10:34:59,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:34:54+00:00, end: 2026-02-11 10:34:59+00:00)
+2026-02-11 10:35:04,888 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:34:59+00:00, end: 2026-02-11 10:35:04+00:00)
+2026-02-11 10:35:04,920 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:34:59+00:00, end: 2026-02-11 10:35:04+00:00)
+2026-02-11 10:35:09,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:35:04+00:00, end: 2026-02-11 10:35:09+00:00)
+2026-02-11 10:35:09,925 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:35:04+00:00, end: 2026-02-11 10:35:09+00:00)
+2026-02-11 10:35:14,863 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:35:09+00:00, end: 2026-02-11 10:35:14+00:00)
+2026-02-11 10:35:14,872 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:35:09+00:00, end: 2026-02-11 10:35:14+00:00)
+2026-02-11 10:35:19,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:35:14+00:00, end: 2026-02-11 10:35:19+00:00)
+2026-02-11 10:35:19,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:35:14+00:00, end: 2026-02-11 10:35:19+00:00)
+2026-02-11 10:35:24,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:35:19+00:00, end: 2026-02-11 10:35:24+00:00)
+2026-02-11 10:35:24,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:35:19+00:00, end: 2026-02-11 10:35:24+00:00)
+2026-02-11 10:35:29,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:35:24+00:00, end: 2026-02-11 10:35:29+00:00)
+2026-02-11 10:35:29,905 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:35:24+00:00, end: 2026-02-11 10:35:29+00:00)
+2026-02-11 10:35:34,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:35:29+00:00, end: 2026-02-11 10:35:34+00:00)
+2026-02-11 10:35:34,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:35:29+00:00, end: 2026-02-11 10:35:34+00:00)
+2026-02-11 10:35:39,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:35:34+00:00, end: 2026-02-11 10:35:39+00:00)
+2026-02-11 10:35:39,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:35:34+00:00, end: 2026-02-11 10:35:39+00:00)
+2026-02-11 10:35:44,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:35:39+00:00, end: 2026-02-11 10:35:44+00:00)
+2026-02-11 10:35:44,919 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:35:39+00:00, end: 2026-02-11 10:35:44+00:00)
+2026-02-11 10:35:49,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:35:44+00:00, end: 2026-02-11 10:35:49+00:00)
+2026-02-11 10:35:49,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:35:44+00:00, end: 2026-02-11 10:35:49+00:00)
+2026-02-11 10:35:54,885 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:35:49+00:00, end: 2026-02-11 10:35:54+00:00)
+2026-02-11 10:35:54,910 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:35:49+00:00, end: 2026-02-11 10:35:54+00:00)
+2026-02-11 10:35:59,885 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:35:54+00:00, end: 2026-02-11 10:35:59+00:00)
+2026-02-11 10:35:59,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:35:54+00:00, end: 2026-02-11 10:35:59+00:00)
+2026-02-11 10:36:04,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:35:59+00:00, end: 2026-02-11 10:36:04+00:00)
+2026-02-11 10:36:04,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:35:59+00:00, end: 2026-02-11 10:36:04+00:00)
+2026-02-11 10:36:09,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:36:04+00:00, end: 2026-02-11 10:36:09+00:00)
+2026-02-11 10:36:09,907 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:36:04+00:00, end: 2026-02-11 10:36:09+00:00)
+2026-02-11 10:36:14,868 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:36:09+00:00, end: 2026-02-11 10:36:14+00:00)
+2026-02-11 10:36:14,877 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:36:09+00:00, end: 2026-02-11 10:36:14+00:00)
+2026-02-11 10:36:19,876 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:36:14+00:00, end: 2026-02-11 10:36:19+00:00)
+2026-02-11 10:36:19,890 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:36:14+00:00, end: 2026-02-11 10:36:19+00:00)
+2026-02-11 10:36:24,877 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:36:19+00:00, end: 2026-02-11 10:36:24+00:00)
+2026-02-11 10:36:24,894 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:36:19+00:00, end: 2026-02-11 10:36:24+00:00)
+2026-02-11 10:36:29,871 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:36:24+00:00, end: 2026-02-11 10:36:29+00:00)
+2026-02-11 10:36:29,883 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:36:24+00:00, end: 2026-02-11 10:36:29+00:00)
+2026-02-11 10:36:34,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:36:29+00:00, end: 2026-02-11 10:36:34+00:00)
+2026-02-11 10:36:34,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:36:29+00:00, end: 2026-02-11 10:36:34+00:00)
+2026-02-11 10:36:39,876 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:36:34+00:00, end: 2026-02-11 10:36:39+00:00)
+2026-02-11 10:36:39,889 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:36:34+00:00, end: 2026-02-11 10:36:39+00:00)
+2026-02-11 10:36:44,865 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:36:39+00:00, end: 2026-02-11 10:36:44+00:00)
+2026-02-11 10:36:44,875 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:36:39+00:00, end: 2026-02-11 10:36:44+00:00)
+2026-02-11 10:36:49,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:36:44+00:00, end: 2026-02-11 10:36:49+00:00)
+2026-02-11 10:36:49,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:36:44+00:00, end: 2026-02-11 10:36:49+00:00)
+2026-02-11 10:36:54,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:36:49+00:00, end: 2026-02-11 10:36:54+00:00)
+2026-02-11 10:36:54,918 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:36:49+00:00, end: 2026-02-11 10:36:54+00:00)
+2026-02-11 10:36:59,887 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:36:54+00:00, end: 2026-02-11 10:36:59+00:00)
+2026-02-11 10:36:59,921 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:36:54+00:00, end: 2026-02-11 10:36:59+00:00)
+2026-02-11 10:37:04,867 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:36:59+00:00, end: 2026-02-11 10:37:04+00:00)
+2026-02-11 10:37:04,878 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:36:59+00:00, end: 2026-02-11 10:37:04+00:00)
+2026-02-11 10:37:09,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:37:04+00:00, end: 2026-02-11 10:37:09+00:00)
+2026-02-11 10:37:09,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:37:04+00:00, end: 2026-02-11 10:37:09+00:00)
+2026-02-11 10:37:14,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:37:09+00:00, end: 2026-02-11 10:37:14+00:00)
+2026-02-11 10:37:14,918 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:37:09+00:00, end: 2026-02-11 10:37:14+00:00)
+2026-02-11 10:37:19,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:37:14+00:00, end: 2026-02-11 10:37:19+00:00)
+2026-02-11 10:37:19,912 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:37:14+00:00, end: 2026-02-11 10:37:19+00:00)
+2026-02-11 10:37:24,875 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:37:19+00:00, end: 2026-02-11 10:37:24+00:00)
+2026-02-11 10:37:24,895 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:37:19+00:00, end: 2026-02-11 10:37:24+00:00)
+2026-02-11 10:37:29,873 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:37:24+00:00, end: 2026-02-11 10:37:29+00:00)
+2026-02-11 10:37:29,893 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:37:24+00:00, end: 2026-02-11 10:37:29+00:00)
+2026-02-11 10:37:34,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:37:29+00:00, end: 2026-02-11 10:37:34+00:00)
+2026-02-11 10:37:34,909 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:37:29+00:00, end: 2026-02-11 10:37:34+00:00)
+2026-02-11 10:37:39,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:37:34+00:00, end: 2026-02-11 10:37:39+00:00)
+2026-02-11 10:37:39,906 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:37:34+00:00, end: 2026-02-11 10:37:39+00:00)
+2026-02-11 10:37:44,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:37:39+00:00, end: 2026-02-11 10:37:44+00:00)
+2026-02-11 10:37:44,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:37:39+00:00, end: 2026-02-11 10:37:44+00:00)
+2026-02-11 10:37:49,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:37:44+00:00, end: 2026-02-11 10:37:49+00:00)
+2026-02-11 10:37:49,906 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:37:44+00:00, end: 2026-02-11 10:37:49+00:00)
+2026-02-11 10:37:54,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:37:49+00:00, end: 2026-02-11 10:37:54+00:00)
+2026-02-11 10:37:54,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:37:49+00:00, end: 2026-02-11 10:37:54+00:00)
+2026-02-11 10:37:59,870 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:37:54+00:00, end: 2026-02-11 10:37:59+00:00)
+2026-02-11 10:37:59,887 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:37:54+00:00, end: 2026-02-11 10:37:59+00:00)
+2026-02-11 10:38:04,867 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:37:59+00:00, end: 2026-02-11 10:38:04+00:00)
+2026-02-11 10:38:04,878 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:37:59+00:00, end: 2026-02-11 10:38:04+00:00)
+2026-02-11 10:38:09,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:38:04+00:00, end: 2026-02-11 10:38:09+00:00)
+2026-02-11 10:38:09,912 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:38:04+00:00, end: 2026-02-11 10:38:09+00:00)
+2026-02-11 10:38:14,872 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:38:09+00:00, end: 2026-02-11 10:38:14+00:00)
+2026-02-11 10:38:14,886 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:38:09+00:00, end: 2026-02-11 10:38:14+00:00)
+2026-02-11 10:38:19,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:38:14+00:00, end: 2026-02-11 10:38:19+00:00)
+2026-02-11 10:38:19,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:38:14+00:00, end: 2026-02-11 10:38:19+00:00)
+2026-02-11 10:38:24,869 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:38:19+00:00, end: 2026-02-11 10:38:24+00:00)
+2026-02-11 10:38:24,883 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:38:19+00:00, end: 2026-02-11 10:38:24+00:00)
+2026-02-11 10:38:29,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:38:24+00:00, end: 2026-02-11 10:38:29+00:00)
+2026-02-11 10:38:29,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:38:24+00:00, end: 2026-02-11 10:38:29+00:00)
+2026-02-11 10:38:34,878 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:38:29+00:00, end: 2026-02-11 10:38:34+00:00)
+2026-02-11 10:38:34,891 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:38:29+00:00, end: 2026-02-11 10:38:34+00:00)
+2026-02-11 10:38:39,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:38:34+00:00, end: 2026-02-11 10:38:39+00:00)
+2026-02-11 10:38:39,906 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:38:34+00:00, end: 2026-02-11 10:38:39+00:00)
+2026-02-11 10:38:44,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:38:39+00:00, end: 2026-02-11 10:38:44+00:00)
+2026-02-11 10:38:44,912 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:38:39+00:00, end: 2026-02-11 10:38:44+00:00)
+2026-02-11 10:38:49,865 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:38:44+00:00, end: 2026-02-11 10:38:49+00:00)
+2026-02-11 10:38:49,876 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:38:44+00:00, end: 2026-02-11 10:38:49+00:00)
+2026-02-11 10:38:50,207 - basicLogger - INFO - Received event meal_report with a trace id of fb702dba-a04d-4830-8027-59ed33b55469
+2026-02-11 10:38:50,231 - basicLogger - INFO - Response for event meal_report (id: fb702dba-a04d-4830-8027-59ed33b55469) has status 201
+2026-02-11 10:38:50,231 - basicLogger - DEBUG - Stored event meal_report with a trace id of fb702dba-a04d-4830-8027-59ed33b55469
+2026-02-11 10:38:50,305 - basicLogger - INFO - Received event exercise_report with a trace id of 9f979334-440b-468b-a5b5-036ed840939a
+2026-02-11 10:38:50,317 - basicLogger - INFO - Response for event exercise_report (id: 9f979334-440b-468b-a5b5-036ed840939a) has status 201
+2026-02-11 10:38:50,318 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 9f979334-440b-468b-a5b5-036ed840939a
+2026-02-11 10:38:50,363 - basicLogger - INFO - Received event meal_report with a trace id of d8f738d7-ed5b-4a58-973f-dcc52bb0a116
+2026-02-11 10:38:50,377 - basicLogger - INFO - Response for event meal_report (id: d8f738d7-ed5b-4a58-973f-dcc52bb0a116) has status 201
+2026-02-11 10:38:50,378 - basicLogger - DEBUG - Stored event meal_report with a trace id of d8f738d7-ed5b-4a58-973f-dcc52bb0a116
+2026-02-11 10:38:50,416 - basicLogger - INFO - Received event exercise_report with a trace id of 30b59e40-1ef4-40f3-b334-89cb6f3c97fc
+2026-02-11 10:38:50,431 - basicLogger - INFO - Response for event exercise_report (id: 30b59e40-1ef4-40f3-b334-89cb6f3c97fc) has status 201
+2026-02-11 10:38:50,431 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 30b59e40-1ef4-40f3-b334-89cb6f3c97fc
+2026-02-11 10:38:50,473 - basicLogger - INFO - Received event meal_report with a trace id of 2c2c4528-f977-4b47-a8be-562ca7265fe2
+2026-02-11 10:38:50,487 - basicLogger - INFO - Response for event meal_report (id: 2c2c4528-f977-4b47-a8be-562ca7265fe2) has status 201
+2026-02-11 10:38:50,487 - basicLogger - DEBUG - Stored event meal_report with a trace id of 2c2c4528-f977-4b47-a8be-562ca7265fe2
+2026-02-11 10:38:50,525 - basicLogger - INFO - Received event exercise_report with a trace id of 9ab8d2d3-7af2-4105-803a-7c96131db362
+2026-02-11 10:38:50,535 - basicLogger - INFO - Response for event exercise_report (id: 9ab8d2d3-7af2-4105-803a-7c96131db362) has status 201
+2026-02-11 10:38:50,535 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 9ab8d2d3-7af2-4105-803a-7c96131db362
+2026-02-11 10:38:50,571 - basicLogger - INFO - Received event meal_report with a trace id of 7443a0e0-f5c9-4001-9e77-6991dd307a7b
+2026-02-11 10:38:50,580 - basicLogger - INFO - Response for event meal_report (id: 7443a0e0-f5c9-4001-9e77-6991dd307a7b) has status 201
+2026-02-11 10:38:50,580 - basicLogger - DEBUG - Stored event meal_report with a trace id of 7443a0e0-f5c9-4001-9e77-6991dd307a7b
+2026-02-11 10:38:50,616 - basicLogger - INFO - Received event exercise_report with a trace id of d7ac557b-4fbb-495b-9d94-66b17854d022
+2026-02-11 10:38:50,624 - basicLogger - INFO - Response for event exercise_report (id: d7ac557b-4fbb-495b-9d94-66b17854d022) has status 201
+2026-02-11 10:38:50,625 - basicLogger - DEBUG - Stored event exercise_report with a trace id of d7ac557b-4fbb-495b-9d94-66b17854d022
+2026-02-11 10:38:50,677 - basicLogger - INFO - Received event meal_report with a trace id of befcc499-d5bf-4296-9327-35ac5b81625d
+2026-02-11 10:38:50,687 - basicLogger - INFO - Response for event meal_report (id: befcc499-d5bf-4296-9327-35ac5b81625d) has status 201
+2026-02-11 10:38:50,687 - basicLogger - DEBUG - Stored event meal_report with a trace id of befcc499-d5bf-4296-9327-35ac5b81625d
+2026-02-11 10:38:50,726 - basicLogger - INFO - Received event exercise_report with a trace id of 974a4a4e-773a-4a1d-ae55-8a94dd99f271
+2026-02-11 10:38:50,735 - basicLogger - INFO - Response for event exercise_report (id: 974a4a4e-773a-4a1d-ae55-8a94dd99f271) has status 201
+2026-02-11 10:38:50,735 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 974a4a4e-773a-4a1d-ae55-8a94dd99f271
+2026-02-11 10:38:50,772 - basicLogger - INFO - Received event meal_report with a trace id of ad5c5fcd-cf6a-4124-8c81-272a3d9a558b
+2026-02-11 10:38:50,780 - basicLogger - INFO - Response for event meal_report (id: ad5c5fcd-cf6a-4124-8c81-272a3d9a558b) has status 201
+2026-02-11 10:38:50,780 - basicLogger - DEBUG - Stored event meal_report with a trace id of ad5c5fcd-cf6a-4124-8c81-272a3d9a558b
+2026-02-11 10:38:50,813 - basicLogger - INFO - Received event exercise_report with a trace id of 1ef2ed2b-2c1a-46b7-83ee-5a82bce7baf5
+2026-02-11 10:38:50,821 - basicLogger - INFO - Response for event exercise_report (id: 1ef2ed2b-2c1a-46b7-83ee-5a82bce7baf5) has status 201
+2026-02-11 10:38:50,821 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 1ef2ed2b-2c1a-46b7-83ee-5a82bce7baf5
+2026-02-11 10:38:50,871 - basicLogger - INFO - Received event meal_report with a trace id of 044784c8-3fd3-4748-b2d8-381cf71d222a
+2026-02-11 10:38:50,882 - basicLogger - INFO - Response for event meal_report (id: 044784c8-3fd3-4748-b2d8-381cf71d222a) has status 201
+2026-02-11 10:38:50,882 - basicLogger - DEBUG - Stored event meal_report with a trace id of 044784c8-3fd3-4748-b2d8-381cf71d222a
+2026-02-11 10:38:50,938 - basicLogger - INFO - Received event exercise_report with a trace id of da147db0-6080-4898-9e5d-4d9e75515699
+2026-02-11 10:38:50,948 - basicLogger - INFO - Response for event exercise_report (id: da147db0-6080-4898-9e5d-4d9e75515699) has status 201
+2026-02-11 10:38:50,948 - basicLogger - DEBUG - Stored event exercise_report with a trace id of da147db0-6080-4898-9e5d-4d9e75515699
+2026-02-11 10:38:51,001 - basicLogger - INFO - Received event meal_report with a trace id of fea87ed0-bd1f-4b9f-b35f-cfd8acce2309
+2026-02-11 10:38:51,012 - basicLogger - INFO - Response for event meal_report (id: fea87ed0-bd1f-4b9f-b35f-cfd8acce2309) has status 201
+2026-02-11 10:38:51,012 - basicLogger - DEBUG - Stored event meal_report with a trace id of fea87ed0-bd1f-4b9f-b35f-cfd8acce2309
+2026-02-11 10:38:51,065 - basicLogger - INFO - Received event exercise_report with a trace id of d6666a49-ebbc-4a43-8e36-124ae7e8d7cd
+2026-02-11 10:38:51,075 - basicLogger - INFO - Response for event exercise_report (id: d6666a49-ebbc-4a43-8e36-124ae7e8d7cd) has status 201
+2026-02-11 10:38:51,075 - basicLogger - DEBUG - Stored event exercise_report with a trace id of d6666a49-ebbc-4a43-8e36-124ae7e8d7cd
+2026-02-11 10:38:51,116 - basicLogger - INFO - Received event meal_report with a trace id of 30ffb5fc-cffa-4c56-bcd6-b2f69a5934d6
+2026-02-11 10:38:51,127 - basicLogger - INFO - Response for event meal_report (id: 30ffb5fc-cffa-4c56-bcd6-b2f69a5934d6) has status 201
+2026-02-11 10:38:51,127 - basicLogger - DEBUG - Stored event meal_report with a trace id of 30ffb5fc-cffa-4c56-bcd6-b2f69a5934d6
+2026-02-11 10:38:51,173 - basicLogger - INFO - Received event exercise_report with a trace id of 79f682bb-fbe9-4bd7-b64a-51e766f42325
+2026-02-11 10:38:51,187 - basicLogger - INFO - Response for event exercise_report (id: 79f682bb-fbe9-4bd7-b64a-51e766f42325) has status 201
+2026-02-11 10:38:51,188 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 79f682bb-fbe9-4bd7-b64a-51e766f42325
+2026-02-11 10:38:51,299 - basicLogger - INFO - Received event meal_report with a trace id of 66947e4a-7e29-4300-82c4-7ef45bd90d7f
+2026-02-11 10:38:51,311 - basicLogger - INFO - Response for event meal_report (id: 66947e4a-7e29-4300-82c4-7ef45bd90d7f) has status 201
+2026-02-11 10:38:51,311 - basicLogger - DEBUG - Stored event meal_report with a trace id of 66947e4a-7e29-4300-82c4-7ef45bd90d7f
+2026-02-11 10:38:51,412 - basicLogger - INFO - Received event exercise_report with a trace id of ec7f9dcc-9300-4f1d-8107-4b24f9ae8a18
+2026-02-11 10:38:51,434 - basicLogger - INFO - Response for event exercise_report (id: ec7f9dcc-9300-4f1d-8107-4b24f9ae8a18) has status 201
+2026-02-11 10:38:51,434 - basicLogger - DEBUG - Stored event exercise_report with a trace id of ec7f9dcc-9300-4f1d-8107-4b24f9ae8a18
+2026-02-11 10:38:54,913 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:38:49+00:00, end: 2026-02-11 10:38:54+00:00)
+2026-02-11 10:38:54,946 - basicLogger - DEBUG - Found 10 exercise readings (start: 2026-02-11 10:38:49+00:00, end: 2026-02-11 10:38:54+00:00)
+2026-02-11 10:38:59,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:38:54+00:00, end: 2026-02-11 10:38:59+00:00)
+2026-02-11 10:38:59,904 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:38:54+00:00, end: 2026-02-11 10:38:59+00:00)
+2026-02-11 10:39:04,866 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:38:59+00:00, end: 2026-02-11 10:39:04+00:00)
+2026-02-11 10:39:04,875 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:38:59+00:00, end: 2026-02-11 10:39:04+00:00)
+2026-02-11 10:39:09,877 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:39:04+00:00, end: 2026-02-11 10:39:09+00:00)
+2026-02-11 10:39:09,896 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:39:04+00:00, end: 2026-02-11 10:39:09+00:00)
+2026-02-11 10:39:14,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:39:09+00:00, end: 2026-02-11 10:39:14+00:00)
+2026-02-11 10:39:14,913 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:39:09+00:00, end: 2026-02-11 10:39:14+00:00)
+2026-02-11 10:39:19,863 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:39:14+00:00, end: 2026-02-11 10:39:19+00:00)
+2026-02-11 10:39:19,873 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:39:14+00:00, end: 2026-02-11 10:39:19+00:00)
+2026-02-11 10:39:24,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:39:19+00:00, end: 2026-02-11 10:39:24+00:00)
+2026-02-11 10:39:24,914 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:39:19+00:00, end: 2026-02-11 10:39:24+00:00)
+2026-02-11 10:39:29,868 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:39:24+00:00, end: 2026-02-11 10:39:29+00:00)
+2026-02-11 10:39:29,878 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:39:24+00:00, end: 2026-02-11 10:39:29+00:00)
+2026-02-11 10:39:34,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:39:29+00:00, end: 2026-02-11 10:39:34+00:00)
+2026-02-11 10:39:34,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:39:29+00:00, end: 2026-02-11 10:39:34+00:00)
+2026-02-11 10:39:39,873 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:39:34+00:00, end: 2026-02-11 10:39:39+00:00)
+2026-02-11 10:39:39,890 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:39:34+00:00, end: 2026-02-11 10:39:39+00:00)
+2026-02-11 10:39:44,868 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:39:39+00:00, end: 2026-02-11 10:39:44+00:00)
+2026-02-11 10:39:44,878 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:39:39+00:00, end: 2026-02-11 10:39:44+00:00)
+2026-02-11 10:39:49,915 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:39:44+00:00, end: 2026-02-11 10:39:49+00:00)
+2026-02-11 10:39:49,946 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:39:44+00:00, end: 2026-02-11 10:39:49+00:00)
+2026-02-11 10:39:54,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:39:49+00:00, end: 2026-02-11 10:39:54+00:00)
+2026-02-11 10:39:54,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:39:49+00:00, end: 2026-02-11 10:39:54+00:00)
+2026-02-11 10:39:59,868 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:39:54+00:00, end: 2026-02-11 10:39:59+00:00)
+2026-02-11 10:39:59,877 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:39:54+00:00, end: 2026-02-11 10:39:59+00:00)
+2026-02-11 10:40:04,865 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:39:59+00:00, end: 2026-02-11 10:40:04+00:00)
+2026-02-11 10:40:04,878 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:39:59+00:00, end: 2026-02-11 10:40:04+00:00)
+2026-02-11 10:40:09,865 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:40:04+00:00, end: 2026-02-11 10:40:09+00:00)
+2026-02-11 10:40:09,874 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:40:04+00:00, end: 2026-02-11 10:40:09+00:00)
+2026-02-11 10:40:14,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:40:09+00:00, end: 2026-02-11 10:40:14+00:00)
+2026-02-11 10:40:14,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:40:09+00:00, end: 2026-02-11 10:40:14+00:00)
+2026-02-11 10:40:18,314 - basicLogger - INFO - Received event meal_report with a trace id of 7414e0df-eeb2-4df5-bfef-1e6ff78d2af3
+2026-02-11 10:40:18,332 - basicLogger - INFO - Response for event meal_report (id: 7414e0df-eeb2-4df5-bfef-1e6ff78d2af3) has status 201
+2026-02-11 10:40:18,332 - basicLogger - DEBUG - Stored event meal_report with a trace id of 7414e0df-eeb2-4df5-bfef-1e6ff78d2af3
+2026-02-11 10:40:18,380 - basicLogger - INFO - Received event exercise_report with a trace id of e0c8a854-bdcf-4e4f-be9a-f76f6e7c1a57
+2026-02-11 10:40:18,392 - basicLogger - INFO - Response for event exercise_report (id: e0c8a854-bdcf-4e4f-be9a-f76f6e7c1a57) has status 201
+2026-02-11 10:40:18,393 - basicLogger - DEBUG - Stored event exercise_report with a trace id of e0c8a854-bdcf-4e4f-be9a-f76f6e7c1a57
+2026-02-11 10:40:18,433 - basicLogger - INFO - Received event meal_report with a trace id of 9cff738e-ad0e-44ea-8b1d-3f45b9f2a619
+2026-02-11 10:40:18,443 - basicLogger - INFO - Response for event meal_report (id: 9cff738e-ad0e-44ea-8b1d-3f45b9f2a619) has status 201
+2026-02-11 10:40:18,443 - basicLogger - DEBUG - Stored event meal_report with a trace id of 9cff738e-ad0e-44ea-8b1d-3f45b9f2a619
+2026-02-11 10:40:18,486 - basicLogger - INFO - Received event exercise_report with a trace id of c0055796-db30-408c-bda8-daad54de915a
+2026-02-11 10:40:18,497 - basicLogger - INFO - Response for event exercise_report (id: c0055796-db30-408c-bda8-daad54de915a) has status 201
+2026-02-11 10:40:18,497 - basicLogger - DEBUG - Stored event exercise_report with a trace id of c0055796-db30-408c-bda8-daad54de915a
+2026-02-11 10:40:18,535 - basicLogger - INFO - Received event meal_report with a trace id of 8ea3600d-044a-4534-83b1-de256ea02fe7
+2026-02-11 10:40:18,549 - basicLogger - INFO - Response for event meal_report (id: 8ea3600d-044a-4534-83b1-de256ea02fe7) has status 201
+2026-02-11 10:40:18,549 - basicLogger - DEBUG - Stored event meal_report with a trace id of 8ea3600d-044a-4534-83b1-de256ea02fe7
+2026-02-11 10:40:18,587 - basicLogger - INFO - Received event exercise_report with a trace id of 0fb195d8-336a-4a5f-bbf1-9d2b7e329018
+2026-02-11 10:40:18,597 - basicLogger - INFO - Response for event exercise_report (id: 0fb195d8-336a-4a5f-bbf1-9d2b7e329018) has status 201
+2026-02-11 10:40:18,597 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 0fb195d8-336a-4a5f-bbf1-9d2b7e329018
+2026-02-11 10:40:18,634 - basicLogger - INFO - Received event meal_report with a trace id of f9687879-2445-43be-99cf-daf331944be3
+2026-02-11 10:40:18,646 - basicLogger - INFO - Response for event meal_report (id: f9687879-2445-43be-99cf-daf331944be3) has status 201
+2026-02-11 10:40:18,646 - basicLogger - DEBUG - Stored event meal_report with a trace id of f9687879-2445-43be-99cf-daf331944be3
+2026-02-11 10:40:18,693 - basicLogger - INFO - Received event exercise_report with a trace id of 5fbc4169-46cd-4613-b0d5-0903ccaa0c24
+2026-02-11 10:40:18,709 - basicLogger - INFO - Response for event exercise_report (id: 5fbc4169-46cd-4613-b0d5-0903ccaa0c24) has status 201
+2026-02-11 10:40:18,709 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 5fbc4169-46cd-4613-b0d5-0903ccaa0c24
+2026-02-11 10:40:18,802 - basicLogger - INFO - Received event meal_report with a trace id of ada4e9d6-eb49-46eb-a822-8ccbb9ebe116
+2026-02-11 10:40:18,818 - basicLogger - INFO - Response for event meal_report (id: ada4e9d6-eb49-46eb-a822-8ccbb9ebe116) has status 201
+2026-02-11 10:40:18,818 - basicLogger - DEBUG - Stored event meal_report with a trace id of ada4e9d6-eb49-46eb-a822-8ccbb9ebe116
+2026-02-11 10:40:18,882 - basicLogger - INFO - Received event exercise_report with a trace id of 50f46d8e-ca0e-4ae9-a220-9edc6ee6afaa
+2026-02-11 10:40:18,893 - basicLogger - INFO - Response for event exercise_report (id: 50f46d8e-ca0e-4ae9-a220-9edc6ee6afaa) has status 201
+2026-02-11 10:40:18,893 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 50f46d8e-ca0e-4ae9-a220-9edc6ee6afaa
+2026-02-11 10:40:18,944 - basicLogger - INFO - Received event meal_report with a trace id of f36aa7b9-3a51-4927-8bba-cab99a97e160
+2026-02-11 10:40:18,956 - basicLogger - INFO - Response for event meal_report (id: f36aa7b9-3a51-4927-8bba-cab99a97e160) has status 201
+2026-02-11 10:40:18,956 - basicLogger - DEBUG - Stored event meal_report with a trace id of f36aa7b9-3a51-4927-8bba-cab99a97e160
+2026-02-11 10:40:19,002 - basicLogger - INFO - Received event exercise_report with a trace id of 171d5cd4-5698-4066-9af1-ed05b14fcc31
+2026-02-11 10:40:19,013 - basicLogger - INFO - Response for event exercise_report (id: 171d5cd4-5698-4066-9af1-ed05b14fcc31) has status 201
+2026-02-11 10:40:19,013 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 171d5cd4-5698-4066-9af1-ed05b14fcc31
+2026-02-11 10:40:19,058 - basicLogger - INFO - Received event meal_report with a trace id of 7811b67d-1883-4956-ab8a-3303b1df04cb
+2026-02-11 10:40:19,077 - basicLogger - INFO - Response for event meal_report (id: 7811b67d-1883-4956-ab8a-3303b1df04cb) has status 201
+2026-02-11 10:40:19,077 - basicLogger - DEBUG - Stored event meal_report with a trace id of 7811b67d-1883-4956-ab8a-3303b1df04cb
+2026-02-11 10:40:19,127 - basicLogger - INFO - Received event exercise_report with a trace id of ccae5f64-a776-4000-ba30-af69f5be11d1
+2026-02-11 10:40:19,138 - basicLogger - INFO - Response for event exercise_report (id: ccae5f64-a776-4000-ba30-af69f5be11d1) has status 201
+2026-02-11 10:40:19,138 - basicLogger - DEBUG - Stored event exercise_report with a trace id of ccae5f64-a776-4000-ba30-af69f5be11d1
+2026-02-11 10:40:19,175 - basicLogger - INFO - Received event meal_report with a trace id of bf65f8fa-155f-44a2-a247-07ff75e9306c
+2026-02-11 10:40:19,186 - basicLogger - INFO - Response for event meal_report (id: bf65f8fa-155f-44a2-a247-07ff75e9306c) has status 201
+2026-02-11 10:40:19,186 - basicLogger - DEBUG - Stored event meal_report with a trace id of bf65f8fa-155f-44a2-a247-07ff75e9306c
+2026-02-11 10:40:19,237 - basicLogger - INFO - Received event exercise_report with a trace id of 9c0cf336-e3b7-47f0-a522-2ed0586d9292
+2026-02-11 10:40:19,247 - basicLogger - INFO - Response for event exercise_report (id: 9c0cf336-e3b7-47f0-a522-2ed0586d9292) has status 201
+2026-02-11 10:40:19,247 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 9c0cf336-e3b7-47f0-a522-2ed0586d9292
+2026-02-11 10:40:19,285 - basicLogger - INFO - Received event meal_report with a trace id of b803d425-060d-4907-93ea-c59144df33c8
+2026-02-11 10:40:19,295 - basicLogger - INFO - Response for event meal_report (id: b803d425-060d-4907-93ea-c59144df33c8) has status 201
+2026-02-11 10:40:19,295 - basicLogger - DEBUG - Stored event meal_report with a trace id of b803d425-060d-4907-93ea-c59144df33c8
+2026-02-11 10:40:19,336 - basicLogger - INFO - Received event exercise_report with a trace id of 5609731d-118e-44cb-8e11-80cd9ba897ce
+2026-02-11 10:40:19,348 - basicLogger - INFO - Response for event exercise_report (id: 5609731d-118e-44cb-8e11-80cd9ba897ce) has status 201
+2026-02-11 10:40:19,348 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 5609731d-118e-44cb-8e11-80cd9ba897ce
+2026-02-11 10:40:19,388 - basicLogger - INFO - Received event meal_report with a trace id of e05b7b2e-27ef-4a5d-b6ae-b2b7c9603b56
+2026-02-11 10:40:19,400 - basicLogger - INFO - Response for event meal_report (id: e05b7b2e-27ef-4a5d-b6ae-b2b7c9603b56) has status 201
+2026-02-11 10:40:19,401 - basicLogger - DEBUG - Stored event meal_report with a trace id of e05b7b2e-27ef-4a5d-b6ae-b2b7c9603b56
+2026-02-11 10:40:19,443 - basicLogger - INFO - Received event exercise_report with a trace id of 31e341e9-affb-45a6-8ded-a51d5a4625c6
+2026-02-11 10:40:19,454 - basicLogger - INFO - Response for event exercise_report (id: 31e341e9-affb-45a6-8ded-a51d5a4625c6) has status 201
+2026-02-11 10:40:19,454 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 31e341e9-affb-45a6-8ded-a51d5a4625c6
+2026-02-11 10:40:19,887 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:40:14+00:00, end: 2026-02-11 10:40:19+00:00)
+2026-02-11 10:40:19,929 - basicLogger - DEBUG - Found 5 exercise readings (start: 2026-02-11 10:40:14+00:00, end: 2026-02-11 10:40:19+00:00)
+2026-02-11 10:40:24,872 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:40:19+00:00, end: 2026-02-11 10:40:24+00:00)
+2026-02-11 10:40:24,883 - basicLogger - DEBUG - Found 5 exercise readings (start: 2026-02-11 10:40:19+00:00, end: 2026-02-11 10:40:24+00:00)
+2026-02-11 10:40:29,863 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:40:24+00:00, end: 2026-02-11 10:40:29+00:00)
+2026-02-11 10:40:29,871 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:40:24+00:00, end: 2026-02-11 10:40:29+00:00)
+2026-02-11 10:40:34,865 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:40:29+00:00, end: 2026-02-11 10:40:34+00:00)
+2026-02-11 10:40:34,874 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:40:29+00:00, end: 2026-02-11 10:40:34+00:00)
+2026-02-11 10:40:39,870 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:40:34+00:00, end: 2026-02-11 10:40:39+00:00)
+2026-02-11 10:40:39,884 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:40:34+00:00, end: 2026-02-11 10:40:39+00:00)
+2026-02-11 10:40:44,866 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:40:39+00:00, end: 2026-02-11 10:40:44+00:00)
+2026-02-11 10:40:44,878 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:40:39+00:00, end: 2026-02-11 10:40:44+00:00)
+2026-02-11 10:40:49,887 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:40:44+00:00, end: 2026-02-11 10:40:49+00:00)
+2026-02-11 10:40:49,903 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:40:44+00:00, end: 2026-02-11 10:40:49+00:00)
+2026-02-11 10:40:54,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:40:49+00:00, end: 2026-02-11 10:40:54+00:00)
+2026-02-11 10:40:54,918 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:40:49+00:00, end: 2026-02-11 10:40:54+00:00)
+2026-02-11 10:40:59,866 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:40:54+00:00, end: 2026-02-11 10:40:59+00:00)
+2026-02-11 10:40:59,877 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:40:54+00:00, end: 2026-02-11 10:40:59+00:00)
+2026-02-11 10:41:04,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:40:59+00:00, end: 2026-02-11 10:41:04+00:00)
+2026-02-11 10:41:04,908 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:40:59+00:00, end: 2026-02-11 10:41:04+00:00)
+2026-02-11 10:41:09,877 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:41:04+00:00, end: 2026-02-11 10:41:09+00:00)
+2026-02-11 10:41:09,893 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:41:04+00:00, end: 2026-02-11 10:41:09+00:00)
+2026-02-11 10:41:14,870 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:41:09+00:00, end: 2026-02-11 10:41:14+00:00)
+2026-02-11 10:41:14,884 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:41:09+00:00, end: 2026-02-11 10:41:14+00:00)
+2026-02-11 10:41:19,793 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-01-31 09:12:33.001000+00:00, end: 2026-02-10 09:12:33.001000+00:00)
+2026-02-11 10:41:19,865 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:41:14+00:00, end: 2026-02-11 10:41:19+00:00)
+2026-02-11 10:41:19,874 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:41:14+00:00, end: 2026-02-11 10:41:19+00:00)
+2026-02-11 10:41:20,413 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-01-31 09:12:33.001000+00:00, end: 2026-02-10 09:12:33.001000+00:00)
+2026-02-11 10:41:21,340 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-01-31 09:12:33.001000+00:00, end: 2026-02-10 09:12:33.001000+00:00)
+2026-02-11 10:41:22,115 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-01-31 09:12:33.001000+00:00, end: 2026-02-10 09:12:33.001000+00:00)
+2026-02-11 10:41:24,690 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-01-31 09:12:33.001000+00:00, end: 2026-02-11 09:12:33.001000+00:00)
+2026-02-11 10:41:24,900 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:41:19+00:00, end: 2026-02-11 10:41:24+00:00)
+2026-02-11 10:41:24,909 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:41:19+00:00, end: 2026-02-11 10:41:24+00:00)
+2026-02-11 10:41:29,868 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:41:24+00:00, end: 2026-02-11 10:41:29+00:00)
+2026-02-11 10:41:29,879 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:41:24+00:00, end: 2026-02-11 10:41:29+00:00)
+2026-02-11 10:41:34,864 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:41:29+00:00, end: 2026-02-11 10:41:34+00:00)
+2026-02-11 10:41:34,874 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:41:29+00:00, end: 2026-02-11 10:41:34+00:00)
+2026-02-11 10:41:37,813 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-01-31 09:12:33.001000+00:00, end: 2026-02-11 09:12:33.001000+00:00)
+2026-02-11 10:41:39,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:41:34+00:00, end: 2026-02-11 10:41:39+00:00)
+2026-02-11 10:41:39,901 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:41:34+00:00, end: 2026-02-11 10:41:39+00:00)
+2026-02-11 10:41:44,875 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:41:39+00:00, end: 2026-02-11 10:41:44+00:00)
+2026-02-11 10:41:44,895 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:41:39+00:00, end: 2026-02-11 10:41:44+00:00)
+2026-02-11 10:41:46,960 - basicLogger - DEBUG - Found 20 exercise readings (start: 2026-01-31 09:12:33.001000+00:00, end: 2026-02-13 09:12:33.001000+00:00)
+2026-02-11 10:41:49,869 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:41:44+00:00, end: 2026-02-11 10:41:49+00:00)
+2026-02-11 10:41:49,880 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:41:44+00:00, end: 2026-02-11 10:41:49+00:00)
+2026-02-11 10:41:52,636 - basicLogger - DEBUG - Found 20 meal readings (start: 2026-01-31 09:12:33.001000+00:00, end: 2026-02-13 09:12:33.001000+00:00)
+2026-02-11 10:41:54,873 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:41:49+00:00, end: 2026-02-11 10:41:54+00:00)
+2026-02-11 10:41:54,889 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:41:49+00:00, end: 2026-02-11 10:41:54+00:00)
+2026-02-11 10:41:59,868 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:41:54+00:00, end: 2026-02-11 10:41:59+00:00)
+2026-02-11 10:41:59,879 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:41:54+00:00, end: 2026-02-11 10:41:59+00:00)
+2026-02-11 10:42:04,887 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:41:59+00:00, end: 2026-02-11 10:42:04+00:00)
+2026-02-11 10:42:04,925 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:41:59+00:00, end: 2026-02-11 10:42:04+00:00)
+2026-02-11 10:42:09,875 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:42:04+00:00, end: 2026-02-11 10:42:09+00:00)
+2026-02-11 10:42:09,887 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:42:04+00:00, end: 2026-02-11 10:42:09+00:00)
+2026-02-11 10:42:14,865 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:42:09+00:00, end: 2026-02-11 10:42:14+00:00)
+2026-02-11 10:42:14,875 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:42:09+00:00, end: 2026-02-11 10:42:14+00:00)
+2026-02-11 10:42:19,865 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:42:14+00:00, end: 2026-02-11 10:42:19+00:00)
+2026-02-11 10:42:19,874 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:42:14+00:00, end: 2026-02-11 10:42:19+00:00)
+2026-02-11 10:42:24,865 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:42:19+00:00, end: 2026-02-11 10:42:24+00:00)
+2026-02-11 10:42:24,876 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:42:19+00:00, end: 2026-02-11 10:42:24+00:00)
+2026-02-11 10:42:29,871 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:42:24+00:00, end: 2026-02-11 10:42:29+00:00)
+2026-02-11 10:42:29,887 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:42:24+00:00, end: 2026-02-11 10:42:29+00:00)
+2026-02-11 10:42:34,876 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:42:29+00:00, end: 2026-02-11 10:42:34+00:00)
+2026-02-11 10:42:34,893 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:42:29+00:00, end: 2026-02-11 10:42:34+00:00)
+2026-02-11 10:42:39,879 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:42:34+00:00, end: 2026-02-11 10:42:39+00:00)
+2026-02-11 10:42:39,909 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:42:34+00:00, end: 2026-02-11 10:42:39+00:00)
+2026-02-11 10:42:44,866 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:42:39+00:00, end: 2026-02-11 10:42:44+00:00)
+2026-02-11 10:42:44,878 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:42:39+00:00, end: 2026-02-11 10:42:44+00:00)
+2026-02-11 10:42:49,863 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:42:44+00:00, end: 2026-02-11 10:42:49+00:00)
+2026-02-11 10:42:49,872 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:42:44+00:00, end: 2026-02-11 10:42:49+00:00)
+2026-02-11 10:42:54,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:42:49+00:00, end: 2026-02-11 10:42:54+00:00)
+2026-02-11 10:42:54,906 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:42:49+00:00, end: 2026-02-11 10:42:54+00:00)
+2026-02-11 10:42:59,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:42:54+00:00, end: 2026-02-11 10:42:59+00:00)
+2026-02-11 10:42:59,914 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:42:54+00:00, end: 2026-02-11 10:42:59+00:00)
+2026-02-11 10:43:04,872 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:42:59+00:00, end: 2026-02-11 10:43:04+00:00)
+2026-02-11 10:43:04,888 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:42:59+00:00, end: 2026-02-11 10:43:04+00:00)
+2026-02-11 10:43:09,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:43:04+00:00, end: 2026-02-11 10:43:09+00:00)
+2026-02-11 10:43:09,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:43:04+00:00, end: 2026-02-11 10:43:09+00:00)
+2026-02-11 10:43:14,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:43:09+00:00, end: 2026-02-11 10:43:14+00:00)
+2026-02-11 10:43:14,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:43:09+00:00, end: 2026-02-11 10:43:14+00:00)
+2026-02-11 10:43:19,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:43:14+00:00, end: 2026-02-11 10:43:19+00:00)
+2026-02-11 10:43:19,902 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:43:14+00:00, end: 2026-02-11 10:43:19+00:00)
+2026-02-11 10:43:24,913 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:43:19+00:00, end: 2026-02-11 10:43:24+00:00)
+2026-02-11 10:43:24,952 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:43:19+00:00, end: 2026-02-11 10:43:24+00:00)
+2026-02-11 10:43:29,865 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:43:24+00:00, end: 2026-02-11 10:43:29+00:00)
+2026-02-11 10:43:29,872 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:43:24+00:00, end: 2026-02-11 10:43:29+00:00)
+2026-02-11 10:43:34,863 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:43:29+00:00, end: 2026-02-11 10:43:34+00:00)
+2026-02-11 10:43:34,875 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:43:29+00:00, end: 2026-02-11 10:43:34+00:00)
+2026-02-11 10:43:39,875 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:43:34+00:00, end: 2026-02-11 10:43:39+00:00)
+2026-02-11 10:43:39,887 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:43:34+00:00, end: 2026-02-11 10:43:39+00:00)
+2026-02-11 10:43:40,652 - basicLogger - INFO - Received event meal_report with a trace id of 3657f2db-4dfb-4bff-b853-7d6f2a83865c
+2026-02-11 10:43:40,665 - basicLogger - INFO - Response for event meal_report (id: 3657f2db-4dfb-4bff-b853-7d6f2a83865c) has status 201
+2026-02-11 10:43:40,665 - basicLogger - DEBUG - Stored event meal_report with a trace id of 3657f2db-4dfb-4bff-b853-7d6f2a83865c
+2026-02-11 10:43:40,707 - basicLogger - INFO - Received event exercise_report with a trace id of 5e289d66-a712-45fc-bb65-87dc22c2eae6
+2026-02-11 10:43:40,719 - basicLogger - INFO - Response for event exercise_report (id: 5e289d66-a712-45fc-bb65-87dc22c2eae6) has status 201
+2026-02-11 10:43:40,719 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 5e289d66-a712-45fc-bb65-87dc22c2eae6
+2026-02-11 10:43:40,758 - basicLogger - INFO - Received event meal_report with a trace id of 60c24382-83a5-475e-b352-76bd2d712247
+2026-02-11 10:43:40,769 - basicLogger - INFO - Response for event meal_report (id: 60c24382-83a5-475e-b352-76bd2d712247) has status 201
+2026-02-11 10:43:40,769 - basicLogger - DEBUG - Stored event meal_report with a trace id of 60c24382-83a5-475e-b352-76bd2d712247
+2026-02-11 10:43:40,808 - basicLogger - INFO - Received event exercise_report with a trace id of cf738b73-ec31-4e3c-bc10-c2e2d84802b0
+2026-02-11 10:43:40,824 - basicLogger - INFO - Response for event exercise_report (id: cf738b73-ec31-4e3c-bc10-c2e2d84802b0) has status 201
+2026-02-11 10:43:40,824 - basicLogger - DEBUG - Stored event exercise_report with a trace id of cf738b73-ec31-4e3c-bc10-c2e2d84802b0
+2026-02-11 10:43:40,863 - basicLogger - INFO - Received event meal_report with a trace id of d8f5ceba-4251-476a-8d28-1d6ac44e205b
+2026-02-11 10:43:40,874 - basicLogger - INFO - Response for event meal_report (id: d8f5ceba-4251-476a-8d28-1d6ac44e205b) has status 201
+2026-02-11 10:43:40,874 - basicLogger - DEBUG - Stored event meal_report with a trace id of d8f5ceba-4251-476a-8d28-1d6ac44e205b
+2026-02-11 10:43:40,911 - basicLogger - INFO - Received event exercise_report with a trace id of d5de2975-6938-44ad-b484-dd05c4527908
+2026-02-11 10:43:40,920 - basicLogger - INFO - Response for event exercise_report (id: d5de2975-6938-44ad-b484-dd05c4527908) has status 201
+2026-02-11 10:43:40,920 - basicLogger - DEBUG - Stored event exercise_report with a trace id of d5de2975-6938-44ad-b484-dd05c4527908
+2026-02-11 10:43:40,973 - basicLogger - INFO - Received event meal_report with a trace id of d1bbc7ad-2ead-435d-9d35-cb27c45ad7a2
+2026-02-11 10:43:40,990 - basicLogger - INFO - Response for event meal_report (id: d1bbc7ad-2ead-435d-9d35-cb27c45ad7a2) has status 201
+2026-02-11 10:43:40,991 - basicLogger - DEBUG - Stored event meal_report with a trace id of d1bbc7ad-2ead-435d-9d35-cb27c45ad7a2
+2026-02-11 10:43:41,053 - basicLogger - INFO - Received event exercise_report with a trace id of fdcaec94-47d4-4d43-8830-f7b8d42334d5
+2026-02-11 10:43:41,064 - basicLogger - INFO - Response for event exercise_report (id: fdcaec94-47d4-4d43-8830-f7b8d42334d5) has status 201
+2026-02-11 10:43:41,064 - basicLogger - DEBUG - Stored event exercise_report with a trace id of fdcaec94-47d4-4d43-8830-f7b8d42334d5
+2026-02-11 10:43:41,112 - basicLogger - INFO - Received event meal_report with a trace id of e172cc8c-a6f5-4a09-a798-d270581bc296
+2026-02-11 10:43:41,123 - basicLogger - INFO - Response for event meal_report (id: e172cc8c-a6f5-4a09-a798-d270581bc296) has status 201
+2026-02-11 10:43:41,123 - basicLogger - DEBUG - Stored event meal_report with a trace id of e172cc8c-a6f5-4a09-a798-d270581bc296
+2026-02-11 10:43:41,160 - basicLogger - INFO - Received event exercise_report with a trace id of b6ee5c03-c64c-4723-aaff-d20159e4d1db
+2026-02-11 10:43:41,171 - basicLogger - INFO - Response for event exercise_report (id: b6ee5c03-c64c-4723-aaff-d20159e4d1db) has status 201
+2026-02-11 10:43:41,171 - basicLogger - DEBUG - Stored event exercise_report with a trace id of b6ee5c03-c64c-4723-aaff-d20159e4d1db
+2026-02-11 10:43:41,209 - basicLogger - INFO - Received event meal_report with a trace id of fc345f03-d01c-4b2d-805c-94dc8fe2aba8
+2026-02-11 10:43:41,218 - basicLogger - INFO - Response for event meal_report (id: fc345f03-d01c-4b2d-805c-94dc8fe2aba8) has status 201
+2026-02-11 10:43:41,219 - basicLogger - DEBUG - Stored event meal_report with a trace id of fc345f03-d01c-4b2d-805c-94dc8fe2aba8
+2026-02-11 10:43:41,257 - basicLogger - INFO - Received event exercise_report with a trace id of 42143721-dc35-4270-a134-15c1c20a2561
+2026-02-11 10:43:41,267 - basicLogger - INFO - Response for event exercise_report (id: 42143721-dc35-4270-a134-15c1c20a2561) has status 201
+2026-02-11 10:43:41,267 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 42143721-dc35-4270-a134-15c1c20a2561
+2026-02-11 10:43:41,309 - basicLogger - INFO - Received event meal_report with a trace id of 393c0f97-7f29-4b73-aebf-77868fefc5b8
+2026-02-11 10:43:41,321 - basicLogger - INFO - Response for event meal_report (id: 393c0f97-7f29-4b73-aebf-77868fefc5b8) has status 201
+2026-02-11 10:43:41,321 - basicLogger - DEBUG - Stored event meal_report with a trace id of 393c0f97-7f29-4b73-aebf-77868fefc5b8
+2026-02-11 10:43:41,366 - basicLogger - INFO - Received event exercise_report with a trace id of ad3a8013-8afe-4d3a-a3a6-1d03728c035b
+2026-02-11 10:43:41,379 - basicLogger - INFO - Response for event exercise_report (id: ad3a8013-8afe-4d3a-a3a6-1d03728c035b) has status 201
+2026-02-11 10:43:41,380 - basicLogger - DEBUG - Stored event exercise_report with a trace id of ad3a8013-8afe-4d3a-a3a6-1d03728c035b
+2026-02-11 10:43:41,420 - basicLogger - INFO - Received event meal_report with a trace id of a1acdcaf-d20d-4a15-8711-f7ca85720f6e
+2026-02-11 10:43:41,431 - basicLogger - INFO - Response for event meal_report (id: a1acdcaf-d20d-4a15-8711-f7ca85720f6e) has status 201
+2026-02-11 10:43:41,431 - basicLogger - DEBUG - Stored event meal_report with a trace id of a1acdcaf-d20d-4a15-8711-f7ca85720f6e
+2026-02-11 10:43:41,488 - basicLogger - INFO - Received event exercise_report with a trace id of b5dd9431-6aab-4783-8357-0a3663fd67c4
+2026-02-11 10:43:41,499 - basicLogger - INFO - Response for event exercise_report (id: b5dd9431-6aab-4783-8357-0a3663fd67c4) has status 201
+2026-02-11 10:43:41,499 - basicLogger - DEBUG - Stored event exercise_report with a trace id of b5dd9431-6aab-4783-8357-0a3663fd67c4
+2026-02-11 10:43:41,547 - basicLogger - INFO - Received event meal_report with a trace id of 31944496-abfe-496e-9194-87ff02127957
+2026-02-11 10:43:41,559 - basicLogger - INFO - Response for event meal_report (id: 31944496-abfe-496e-9194-87ff02127957) has status 201
+2026-02-11 10:43:41,559 - basicLogger - DEBUG - Stored event meal_report with a trace id of 31944496-abfe-496e-9194-87ff02127957
+2026-02-11 10:43:41,603 - basicLogger - INFO - Received event exercise_report with a trace id of 4360a4b7-b525-4ae5-a8d1-01b92177131c
+2026-02-11 10:43:41,611 - basicLogger - INFO - Response for event exercise_report (id: 4360a4b7-b525-4ae5-a8d1-01b92177131c) has status 201
+2026-02-11 10:43:41,611 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 4360a4b7-b525-4ae5-a8d1-01b92177131c
+2026-02-11 10:43:41,660 - basicLogger - INFO - Received event meal_report with a trace id of 8ff090af-d30e-48ec-887e-44c2d6c1aeea
+2026-02-11 10:43:41,669 - basicLogger - INFO - Response for event meal_report (id: 8ff090af-d30e-48ec-887e-44c2d6c1aeea) has status 201
+2026-02-11 10:43:41,669 - basicLogger - DEBUG - Stored event meal_report with a trace id of 8ff090af-d30e-48ec-887e-44c2d6c1aeea
+2026-02-11 10:43:41,708 - basicLogger - INFO - Received event exercise_report with a trace id of 85e0fcd2-a324-4644-98d2-f4deb98119e4
+2026-02-11 10:43:41,720 - basicLogger - INFO - Response for event exercise_report (id: 85e0fcd2-a324-4644-98d2-f4deb98119e4) has status 201
+2026-02-11 10:43:41,720 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 85e0fcd2-a324-4644-98d2-f4deb98119e4
+2026-02-11 10:43:44,885 - basicLogger - DEBUG - Found 10 meal readings (start: 2026-02-11 10:43:39+00:00, end: 2026-02-11 10:43:44+00:00)
+2026-02-11 10:43:44,923 - basicLogger - DEBUG - Found 10 exercise readings (start: 2026-02-11 10:43:39+00:00, end: 2026-02-11 10:43:44+00:00)
+2026-02-11 10:43:49,875 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:43:44+00:00, end: 2026-02-11 10:43:49+00:00)
+2026-02-11 10:43:49,905 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:43:44+00:00, end: 2026-02-11 10:43:49+00:00)
+2026-02-11 10:43:54,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:43:49+00:00, end: 2026-02-11 10:43:54+00:00)
+2026-02-11 10:43:54,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:43:49+00:00, end: 2026-02-11 10:43:54+00:00)
+2026-02-11 10:43:59,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:43:54+00:00, end: 2026-02-11 10:43:59+00:00)
+2026-02-11 10:43:59,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:43:54+00:00, end: 2026-02-11 10:43:59+00:00)
+2026-02-11 10:44:04,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:43:59+00:00, end: 2026-02-11 10:44:04+00:00)
+2026-02-11 10:44:04,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:43:59+00:00, end: 2026-02-11 10:44:04+00:00)
+2026-02-11 10:44:09,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:44:04+00:00, end: 2026-02-11 10:44:09+00:00)
+2026-02-11 10:44:09,919 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:44:04+00:00, end: 2026-02-11 10:44:09+00:00)
+2026-02-11 10:44:14,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:44:09+00:00, end: 2026-02-11 10:44:14+00:00)
+2026-02-11 10:44:14,919 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:44:09+00:00, end: 2026-02-11 10:44:14+00:00)
+2026-02-11 10:44:19,891 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:44:14+00:00, end: 2026-02-11 10:44:19+00:00)
+2026-02-11 10:44:19,922 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:44:14+00:00, end: 2026-02-11 10:44:19+00:00)
+2026-02-11 10:44:24,894 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:44:19+00:00, end: 2026-02-11 10:44:24+00:00)
+2026-02-11 10:44:24,908 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:44:19+00:00, end: 2026-02-11 10:44:24+00:00)
+2026-02-11 10:44:29,870 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:44:24+00:00, end: 2026-02-11 10:44:29+00:00)
+2026-02-11 10:44:29,885 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:44:24+00:00, end: 2026-02-11 10:44:29+00:00)
+2026-02-11 10:44:34,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:44:29+00:00, end: 2026-02-11 10:44:34+00:00)
+2026-02-11 10:44:34,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:44:29+00:00, end: 2026-02-11 10:44:34+00:00)
+2026-02-11 10:44:39,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:44:34+00:00, end: 2026-02-11 10:44:39+00:00)
+2026-02-11 10:44:39,919 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:44:34+00:00, end: 2026-02-11 10:44:39+00:00)
+2026-02-11 10:44:44,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:44:39+00:00, end: 2026-02-11 10:44:44+00:00)
+2026-02-11 10:44:44,905 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:44:39+00:00, end: 2026-02-11 10:44:44+00:00)
+2026-02-11 10:44:49,887 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:44:44+00:00, end: 2026-02-11 10:44:49+00:00)
+2026-02-11 10:44:49,909 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:44:44+00:00, end: 2026-02-11 10:44:49+00:00)
+2026-02-11 10:44:54,889 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:44:49+00:00, end: 2026-02-11 10:44:54+00:00)
+2026-02-11 10:44:54,928 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:44:49+00:00, end: 2026-02-11 10:44:54+00:00)
+2026-02-11 10:44:59,879 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:44:54+00:00, end: 2026-02-11 10:44:59+00:00)
+2026-02-11 10:44:59,902 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:44:54+00:00, end: 2026-02-11 10:44:59+00:00)
+2026-02-11 10:45:04,864 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:44:59+00:00, end: 2026-02-11 10:45:04+00:00)
+2026-02-11 10:45:04,873 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:44:59+00:00, end: 2026-02-11 10:45:04+00:00)
+2026-02-11 10:45:09,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:45:04+00:00, end: 2026-02-11 10:45:09+00:00)
+2026-02-11 10:45:09,911 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:45:04+00:00, end: 2026-02-11 10:45:09+00:00)
+2026-02-11 10:45:14,885 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:45:09+00:00, end: 2026-02-11 10:45:14+00:00)
+2026-02-11 10:45:14,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:45:09+00:00, end: 2026-02-11 10:45:14+00:00)
+2026-02-11 10:45:19,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:45:14+00:00, end: 2026-02-11 10:45:19+00:00)
+2026-02-11 10:45:19,904 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:45:14+00:00, end: 2026-02-11 10:45:19+00:00)
+2026-02-11 10:45:24,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:45:19+00:00, end: 2026-02-11 10:45:24+00:00)
+2026-02-11 10:45:24,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:45:19+00:00, end: 2026-02-11 10:45:24+00:00)
+2026-02-11 10:45:29,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:45:24+00:00, end: 2026-02-11 10:45:29+00:00)
+2026-02-11 10:45:29,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:45:24+00:00, end: 2026-02-11 10:45:29+00:00)
+2026-02-11 10:45:34,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:45:29+00:00, end: 2026-02-11 10:45:34+00:00)
+2026-02-11 10:45:34,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:45:29+00:00, end: 2026-02-11 10:45:34+00:00)
+2026-02-11 10:45:39,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:45:34+00:00, end: 2026-02-11 10:45:39+00:00)
+2026-02-11 10:45:39,913 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:45:34+00:00, end: 2026-02-11 10:45:39+00:00)
+2026-02-11 10:45:44,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:45:39+00:00, end: 2026-02-11 10:45:44+00:00)
+2026-02-11 10:45:44,909 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:45:39+00:00, end: 2026-02-11 10:45:44+00:00)
+2026-02-11 10:45:49,869 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:45:44+00:00, end: 2026-02-11 10:45:49+00:00)
+2026-02-11 10:45:49,881 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:45:44+00:00, end: 2026-02-11 10:45:49+00:00)
+2026-02-11 10:45:52,020 - basicLogger - INFO - Received event meal_report with a trace id of e7567ceb-b466-4b78-b72e-ad1d43b36788
+2026-02-11 10:45:52,028 - basicLogger - INFO - Response for event meal_report (id: e7567ceb-b466-4b78-b72e-ad1d43b36788) has status 201
+2026-02-11 10:45:52,029 - basicLogger - DEBUG - Stored event meal_report with a trace id of e7567ceb-b466-4b78-b72e-ad1d43b36788
+2026-02-11 10:45:52,066 - basicLogger - INFO - Received event exercise_report with a trace id of 8c1e48fe-c027-421c-b9f7-16e9d255dd9f
+2026-02-11 10:45:52,075 - basicLogger - INFO - Response for event exercise_report (id: 8c1e48fe-c027-421c-b9f7-16e9d255dd9f) has status 201
+2026-02-11 10:45:52,075 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 8c1e48fe-c027-421c-b9f7-16e9d255dd9f
+2026-02-11 10:45:52,116 - basicLogger - INFO - Received event meal_report with a trace id of b481ad4f-1bfc-4a7e-9780-954c027434e2
+2026-02-11 10:45:52,127 - basicLogger - INFO - Response for event meal_report (id: b481ad4f-1bfc-4a7e-9780-954c027434e2) has status 201
+2026-02-11 10:45:52,127 - basicLogger - DEBUG - Stored event meal_report with a trace id of b481ad4f-1bfc-4a7e-9780-954c027434e2
+2026-02-11 10:45:52,161 - basicLogger - INFO - Received event exercise_report with a trace id of 751205ca-9b9b-4385-a462-d9dc2cde8bd5
+2026-02-11 10:45:52,171 - basicLogger - INFO - Response for event exercise_report (id: 751205ca-9b9b-4385-a462-d9dc2cde8bd5) has status 201
+2026-02-11 10:45:52,172 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 751205ca-9b9b-4385-a462-d9dc2cde8bd5
+2026-02-11 10:45:52,212 - basicLogger - INFO - Received event meal_report with a trace id of ff78a08c-ae72-46f9-a72c-383633c87bec
+2026-02-11 10:45:52,227 - basicLogger - INFO - Response for event meal_report (id: ff78a08c-ae72-46f9-a72c-383633c87bec) has status 201
+2026-02-11 10:45:52,228 - basicLogger - DEBUG - Stored event meal_report with a trace id of ff78a08c-ae72-46f9-a72c-383633c87bec
+2026-02-11 10:45:52,284 - basicLogger - INFO - Received event exercise_report with a trace id of c21739aa-00d0-4cc4-b2ba-7d4bf69f93f2
+2026-02-11 10:45:52,303 - basicLogger - INFO - Response for event exercise_report (id: c21739aa-00d0-4cc4-b2ba-7d4bf69f93f2) has status 201
+2026-02-11 10:45:52,303 - basicLogger - DEBUG - Stored event exercise_report with a trace id of c21739aa-00d0-4cc4-b2ba-7d4bf69f93f2
+2026-02-11 10:45:52,353 - basicLogger - INFO - Received event meal_report with a trace id of 68d09914-28c1-4315-8b0b-a9c0eea19718
+2026-02-11 10:45:52,366 - basicLogger - INFO - Response for event meal_report (id: 68d09914-28c1-4315-8b0b-a9c0eea19718) has status 201
+2026-02-11 10:45:52,366 - basicLogger - DEBUG - Stored event meal_report with a trace id of 68d09914-28c1-4315-8b0b-a9c0eea19718
+2026-02-11 10:45:52,419 - basicLogger - INFO - Received event exercise_report with a trace id of d3a2d9c9-7463-42b7-9acd-0d5295cfac24
+2026-02-11 10:45:52,429 - basicLogger - INFO - Response for event exercise_report (id: d3a2d9c9-7463-42b7-9acd-0d5295cfac24) has status 201
+2026-02-11 10:45:52,430 - basicLogger - DEBUG - Stored event exercise_report with a trace id of d3a2d9c9-7463-42b7-9acd-0d5295cfac24
+2026-02-11 10:45:52,469 - basicLogger - INFO - Received event meal_report with a trace id of c1f8407f-a5c1-4af0-a572-86a568a3b2ef
+2026-02-11 10:45:52,484 - basicLogger - INFO - Response for event meal_report (id: c1f8407f-a5c1-4af0-a572-86a568a3b2ef) has status 201
+2026-02-11 10:45:52,484 - basicLogger - DEBUG - Stored event meal_report with a trace id of c1f8407f-a5c1-4af0-a572-86a568a3b2ef
+2026-02-11 10:45:52,541 - basicLogger - INFO - Received event exercise_report with a trace id of 0df26d39-8e0d-4775-9ebb-72e8a7a5773f
+2026-02-11 10:45:52,550 - basicLogger - INFO - Response for event exercise_report (id: 0df26d39-8e0d-4775-9ebb-72e8a7a5773f) has status 201
+2026-02-11 10:45:52,550 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 0df26d39-8e0d-4775-9ebb-72e8a7a5773f
+2026-02-11 10:45:52,587 - basicLogger - INFO - Received event meal_report with a trace id of 99bf8206-968d-405b-98ae-2a99e1aa9db9
+2026-02-11 10:45:52,599 - basicLogger - INFO - Response for event meal_report (id: 99bf8206-968d-405b-98ae-2a99e1aa9db9) has status 201
+2026-02-11 10:45:52,599 - basicLogger - DEBUG - Stored event meal_report with a trace id of 99bf8206-968d-405b-98ae-2a99e1aa9db9
+2026-02-11 10:45:52,637 - basicLogger - INFO - Received event exercise_report with a trace id of 3a3f932e-a56c-4ffd-a545-a52d838b7a52
+2026-02-11 10:45:52,647 - basicLogger - INFO - Response for event exercise_report (id: 3a3f932e-a56c-4ffd-a545-a52d838b7a52) has status 201
+2026-02-11 10:45:52,647 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 3a3f932e-a56c-4ffd-a545-a52d838b7a52
+2026-02-11 10:45:52,684 - basicLogger - INFO - Received event meal_report with a trace id of 9ece5735-8c02-4f47-af65-5ae3ed3ebcb7
+2026-02-11 10:45:52,700 - basicLogger - INFO - Response for event meal_report (id: 9ece5735-8c02-4f47-af65-5ae3ed3ebcb7) has status 201
+2026-02-11 10:45:52,700 - basicLogger - DEBUG - Stored event meal_report with a trace id of 9ece5735-8c02-4f47-af65-5ae3ed3ebcb7
+2026-02-11 10:45:52,737 - basicLogger - INFO - Received event exercise_report with a trace id of 21a94169-cfe9-42dd-9f5b-d77720a60db4
+2026-02-11 10:45:52,749 - basicLogger - INFO - Response for event exercise_report (id: 21a94169-cfe9-42dd-9f5b-d77720a60db4) has status 201
+2026-02-11 10:45:52,749 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 21a94169-cfe9-42dd-9f5b-d77720a60db4
+2026-02-11 10:45:52,784 - basicLogger - INFO - Received event meal_report with a trace id of 5a0dce04-bf42-42fc-b597-0db141a828f7
+2026-02-11 10:45:52,793 - basicLogger - INFO - Response for event meal_report (id: 5a0dce04-bf42-42fc-b597-0db141a828f7) has status 201
+2026-02-11 10:45:52,793 - basicLogger - DEBUG - Stored event meal_report with a trace id of 5a0dce04-bf42-42fc-b597-0db141a828f7
+2026-02-11 10:45:52,831 - basicLogger - INFO - Received event exercise_report with a trace id of 2b7a624e-f850-41b0-aa57-7960f1d3d33e
+2026-02-11 10:45:52,840 - basicLogger - INFO - Response for event exercise_report (id: 2b7a624e-f850-41b0-aa57-7960f1d3d33e) has status 201
+2026-02-11 10:45:52,840 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 2b7a624e-f850-41b0-aa57-7960f1d3d33e
+2026-02-11 10:45:52,887 - basicLogger - INFO - Received event meal_report with a trace id of 3cb30a3a-b00f-4ef1-9429-99117b63d973
+2026-02-11 10:45:52,899 - basicLogger - INFO - Response for event meal_report (id: 3cb30a3a-b00f-4ef1-9429-99117b63d973) has status 201
+2026-02-11 10:45:52,899 - basicLogger - DEBUG - Stored event meal_report with a trace id of 3cb30a3a-b00f-4ef1-9429-99117b63d973
+2026-02-11 10:45:52,939 - basicLogger - INFO - Received event exercise_report with a trace id of 6ca240b4-58da-46c3-b3c3-2508f2d540ec
+2026-02-11 10:45:52,951 - basicLogger - INFO - Response for event exercise_report (id: 6ca240b4-58da-46c3-b3c3-2508f2d540ec) has status 201
+2026-02-11 10:45:52,951 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 6ca240b4-58da-46c3-b3c3-2508f2d540ec
+2026-02-11 10:45:52,987 - basicLogger - INFO - Received event meal_report with a trace id of 3a237ceb-268f-437d-bf4c-811edd27b0ac
+2026-02-11 10:45:52,997 - basicLogger - INFO - Response for event meal_report (id: 3a237ceb-268f-437d-bf4c-811edd27b0ac) has status 201
+2026-02-11 10:45:52,998 - basicLogger - DEBUG - Stored event meal_report with a trace id of 3a237ceb-268f-437d-bf4c-811edd27b0ac
+2026-02-11 10:45:53,043 - basicLogger - INFO - Received event exercise_report with a trace id of 7868cca0-bf96-4be3-921c-7bab0cbb95a1
+2026-02-11 10:45:53,054 - basicLogger - INFO - Response for event exercise_report (id: 7868cca0-bf96-4be3-921c-7bab0cbb95a1) has status 201
+2026-02-11 10:45:53,054 - basicLogger - DEBUG - Stored event exercise_report with a trace id of 7868cca0-bf96-4be3-921c-7bab0cbb95a1
+2026-02-11 10:45:54,877 - basicLogger - DEBUG - Found 10 meal readings (start: 2026-02-11 10:45:49+00:00, end: 2026-02-11 10:45:54+00:00)
+2026-02-11 10:45:54,907 - basicLogger - DEBUG - Found 10 exercise readings (start: 2026-02-11 10:45:49+00:00, end: 2026-02-11 10:45:54+00:00)
+2026-02-11 10:45:59,877 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:45:54+00:00, end: 2026-02-11 10:45:59+00:00)
+2026-02-11 10:45:59,895 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:45:54+00:00, end: 2026-02-11 10:45:59+00:00)
+2026-02-11 10:46:04,864 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:45:59+00:00, end: 2026-02-11 10:46:04+00:00)
+2026-02-11 10:46:04,874 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:45:59+00:00, end: 2026-02-11 10:46:04+00:00)
+2026-02-11 10:46:09,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:46:04+00:00, end: 2026-02-11 10:46:09+00:00)
+2026-02-11 10:46:09,898 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:46:04+00:00, end: 2026-02-11 10:46:09+00:00)
+2026-02-11 10:46:14,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:46:09+00:00, end: 2026-02-11 10:46:14+00:00)
+2026-02-11 10:46:14,912 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:46:09+00:00, end: 2026-02-11 10:46:14+00:00)
+2026-02-11 10:46:19,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:46:14+00:00, end: 2026-02-11 10:46:19+00:00)
+2026-02-11 10:46:19,919 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:46:14+00:00, end: 2026-02-11 10:46:19+00:00)
+2026-02-11 10:46:24,863 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:46:19+00:00, end: 2026-02-11 10:46:24+00:00)
+2026-02-11 10:46:24,871 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:46:19+00:00, end: 2026-02-11 10:46:24+00:00)
+2026-02-11 10:46:29,874 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:46:24+00:00, end: 2026-02-11 10:46:29+00:00)
+2026-02-11 10:46:29,899 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:46:24+00:00, end: 2026-02-11 10:46:29+00:00)
+2026-02-11 10:46:34,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:46:29+00:00, end: 2026-02-11 10:46:34+00:00)
+2026-02-11 10:46:34,914 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:46:29+00:00, end: 2026-02-11 10:46:34+00:00)
+2026-02-11 10:46:39,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:46:34+00:00, end: 2026-02-11 10:46:39+00:00)
+2026-02-11 10:46:39,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:46:34+00:00, end: 2026-02-11 10:46:39+00:00)
+2026-02-11 10:46:44,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:46:39+00:00, end: 2026-02-11 10:46:44+00:00)
+2026-02-11 10:46:44,914 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:46:39+00:00, end: 2026-02-11 10:46:44+00:00)
+2026-02-11 10:46:49,915 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:46:44+00:00, end: 2026-02-11 10:46:49+00:00)
+2026-02-11 10:46:49,935 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:46:44+00:00, end: 2026-02-11 10:46:49+00:00)
+2026-02-11 10:46:54,870 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:46:49+00:00, end: 2026-02-11 10:46:54+00:00)
+2026-02-11 10:46:54,884 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:46:49+00:00, end: 2026-02-11 10:46:54+00:00)
+2026-02-11 10:46:59,863 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:46:54+00:00, end: 2026-02-11 10:46:59+00:00)
+2026-02-11 10:46:59,872 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:46:54+00:00, end: 2026-02-11 10:46:59+00:00)
+2026-02-11 10:47:04,887 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:46:59+00:00, end: 2026-02-11 10:47:04+00:00)
+2026-02-11 10:47:04,928 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:46:59+00:00, end: 2026-02-11 10:47:04+00:00)
+2026-02-11 10:47:09,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:47:04+00:00, end: 2026-02-11 10:47:09+00:00)
+2026-02-11 10:47:09,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:47:04+00:00, end: 2026-02-11 10:47:09+00:00)
+2026-02-11 10:47:14,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:47:09+00:00, end: 2026-02-11 10:47:14+00:00)
+2026-02-11 10:47:14,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:47:09+00:00, end: 2026-02-11 10:47:14+00:00)
+2026-02-11 10:47:19,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:47:14+00:00, end: 2026-02-11 10:47:19+00:00)
+2026-02-11 10:47:19,918 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:47:14+00:00, end: 2026-02-11 10:47:19+00:00)
+2026-02-11 10:47:24,877 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:47:19+00:00, end: 2026-02-11 10:47:24+00:00)
+2026-02-11 10:47:24,895 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:47:19+00:00, end: 2026-02-11 10:47:24+00:00)
+2026-02-11 10:47:29,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:47:24+00:00, end: 2026-02-11 10:47:29+00:00)
+2026-02-11 10:47:29,914 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:47:24+00:00, end: 2026-02-11 10:47:29+00:00)
+2026-02-11 10:47:34,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:47:29+00:00, end: 2026-02-11 10:47:34+00:00)
+2026-02-11 10:47:34,918 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:47:29+00:00, end: 2026-02-11 10:47:34+00:00)
+2026-02-11 10:47:39,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:47:34+00:00, end: 2026-02-11 10:47:39+00:00)
+2026-02-11 10:47:39,918 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:47:34+00:00, end: 2026-02-11 10:47:39+00:00)
+2026-02-11 10:47:44,915 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:47:39+00:00, end: 2026-02-11 10:47:44+00:00)
+2026-02-11 10:47:44,950 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:47:39+00:00, end: 2026-02-11 10:47:44+00:00)
+2026-02-11 10:47:49,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:47:44+00:00, end: 2026-02-11 10:47:49+00:00)
+2026-02-11 10:47:49,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:47:44+00:00, end: 2026-02-11 10:47:49+00:00)
+2026-02-11 10:47:54,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:47:49+00:00, end: 2026-02-11 10:47:54+00:00)
+2026-02-11 10:47:54,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:47:49+00:00, end: 2026-02-11 10:47:54+00:00)
+2026-02-11 10:47:59,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:47:54+00:00, end: 2026-02-11 10:47:59+00:00)
+2026-02-11 10:47:59,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:47:54+00:00, end: 2026-02-11 10:47:59+00:00)
+2026-02-11 10:48:04,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:47:59+00:00, end: 2026-02-11 10:48:04+00:00)
+2026-02-11 10:48:04,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:47:59+00:00, end: 2026-02-11 10:48:04+00:00)
+2026-02-11 10:48:09,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:48:04+00:00, end: 2026-02-11 10:48:09+00:00)
+2026-02-11 10:48:09,919 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:48:04+00:00, end: 2026-02-11 10:48:09+00:00)
+2026-02-11 10:48:14,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:48:09+00:00, end: 2026-02-11 10:48:14+00:00)
+2026-02-11 10:48:14,913 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:48:09+00:00, end: 2026-02-11 10:48:14+00:00)
+2026-02-11 10:48:19,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:48:14+00:00, end: 2026-02-11 10:48:19+00:00)
+2026-02-11 10:48:19,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:48:14+00:00, end: 2026-02-11 10:48:19+00:00)
+2026-02-11 10:48:24,890 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:48:19+00:00, end: 2026-02-11 10:48:24+00:00)
+2026-02-11 10:48:24,920 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:48:19+00:00, end: 2026-02-11 10:48:24+00:00)
+2026-02-11 10:48:29,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:48:24+00:00, end: 2026-02-11 10:48:29+00:00)
+2026-02-11 10:48:29,914 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:48:24+00:00, end: 2026-02-11 10:48:29+00:00)
+2026-02-11 10:48:34,879 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:48:29+00:00, end: 2026-02-11 10:48:34+00:00)
+2026-02-11 10:48:34,911 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:48:29+00:00, end: 2026-02-11 10:48:34+00:00)
+2026-02-11 10:48:39,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:48:34+00:00, end: 2026-02-11 10:48:39+00:00)
+2026-02-11 10:48:39,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:48:34+00:00, end: 2026-02-11 10:48:39+00:00)
+2026-02-11 10:48:44,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:48:39+00:00, end: 2026-02-11 10:48:44+00:00)
+2026-02-11 10:48:44,918 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:48:39+00:00, end: 2026-02-11 10:48:44+00:00)
+2026-02-11 10:48:49,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:48:44+00:00, end: 2026-02-11 10:48:49+00:00)
+2026-02-11 10:48:49,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:48:44+00:00, end: 2026-02-11 10:48:49+00:00)
+2026-02-11 10:48:54,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:48:49+00:00, end: 2026-02-11 10:48:54+00:00)
+2026-02-11 10:48:54,918 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:48:49+00:00, end: 2026-02-11 10:48:54+00:00)
+2026-02-11 10:48:59,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:48:54+00:00, end: 2026-02-11 10:48:59+00:00)
+2026-02-11 10:48:59,914 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:48:54+00:00, end: 2026-02-11 10:48:59+00:00)
+2026-02-11 10:49:04,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:48:59+00:00, end: 2026-02-11 10:49:04+00:00)
+2026-02-11 10:49:04,918 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:48:59+00:00, end: 2026-02-11 10:49:04+00:00)
+2026-02-11 10:49:09,876 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:49:04+00:00, end: 2026-02-11 10:49:09+00:00)
+2026-02-11 10:49:09,939 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:49:04+00:00, end: 2026-02-11 10:49:09+00:00)
+2026-02-11 10:49:14,919 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:49:09+00:00, end: 2026-02-11 10:49:14+00:00)
+2026-02-11 10:49:14,933 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:49:09+00:00, end: 2026-02-11 10:49:14+00:00)
+2026-02-11 10:49:19,887 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:49:14+00:00, end: 2026-02-11 10:49:19+00:00)
+2026-02-11 10:49:19,921 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:49:14+00:00, end: 2026-02-11 10:49:19+00:00)
+2026-02-11 10:49:24,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:49:19+00:00, end: 2026-02-11 10:49:24+00:00)
+2026-02-11 10:49:24,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:49:19+00:00, end: 2026-02-11 10:49:24+00:00)
+2026-02-11 10:49:29,867 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:49:24+00:00, end: 2026-02-11 10:49:29+00:00)
+2026-02-11 10:49:29,879 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:49:24+00:00, end: 2026-02-11 10:49:29+00:00)
+2026-02-11 10:49:34,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:49:29+00:00, end: 2026-02-11 10:49:34+00:00)
+2026-02-11 10:49:34,912 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:49:29+00:00, end: 2026-02-11 10:49:34+00:00)
+2026-02-11 10:49:39,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:49:34+00:00, end: 2026-02-11 10:49:39+00:00)
+2026-02-11 10:49:39,902 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:49:34+00:00, end: 2026-02-11 10:49:39+00:00)
+2026-02-11 10:49:44,888 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:49:39+00:00, end: 2026-02-11 10:49:44+00:00)
+2026-02-11 10:49:44,925 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:49:39+00:00, end: 2026-02-11 10:49:44+00:00)
+2026-02-11 10:49:49,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:49:44+00:00, end: 2026-02-11 10:49:49+00:00)
+2026-02-11 10:49:49,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:49:44+00:00, end: 2026-02-11 10:49:49+00:00)
+2026-02-11 10:49:54,868 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:49:49+00:00, end: 2026-02-11 10:49:54+00:00)
+2026-02-11 10:49:54,885 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:49:49+00:00, end: 2026-02-11 10:49:54+00:00)
+2026-02-11 10:49:59,869 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:49:54+00:00, end: 2026-02-11 10:49:59+00:00)
+2026-02-11 10:49:59,896 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:49:54+00:00, end: 2026-02-11 10:49:59+00:00)
+2026-02-11 10:50:04,891 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:49:59+00:00, end: 2026-02-11 10:50:04+00:00)
+2026-02-11 10:50:04,913 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:49:59+00:00, end: 2026-02-11 10:50:04+00:00)
+2026-02-11 10:50:09,886 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:50:04+00:00, end: 2026-02-11 10:50:09+00:00)
+2026-02-11 10:50:09,911 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:50:04+00:00, end: 2026-02-11 10:50:09+00:00)
+2026-02-11 10:50:14,866 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:50:09+00:00, end: 2026-02-11 10:50:14+00:00)
+2026-02-11 10:50:14,875 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:50:09+00:00, end: 2026-02-11 10:50:14+00:00)
+2026-02-11 10:50:19,877 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:50:14+00:00, end: 2026-02-11 10:50:19+00:00)
+2026-02-11 10:50:19,902 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:50:14+00:00, end: 2026-02-11 10:50:19+00:00)
+2026-02-11 10:50:24,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:50:19+00:00, end: 2026-02-11 10:50:24+00:00)
+2026-02-11 10:50:24,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:50:19+00:00, end: 2026-02-11 10:50:24+00:00)
+2026-02-11 10:50:29,877 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:50:24+00:00, end: 2026-02-11 10:50:29+00:00)
+2026-02-11 10:50:29,898 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:50:24+00:00, end: 2026-02-11 10:50:29+00:00)
+2026-02-11 10:50:34,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:50:29+00:00, end: 2026-02-11 10:50:34+00:00)
+2026-02-11 10:50:34,913 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:50:29+00:00, end: 2026-02-11 10:50:34+00:00)
+2026-02-11 10:50:39,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:50:34+00:00, end: 2026-02-11 10:50:39+00:00)
+2026-02-11 10:50:39,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:50:34+00:00, end: 2026-02-11 10:50:39+00:00)
+2026-02-11 10:50:44,879 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:50:39+00:00, end: 2026-02-11 10:50:44+00:00)
+2026-02-11 10:50:44,902 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:50:39+00:00, end: 2026-02-11 10:50:44+00:00)
+2026-02-11 10:50:49,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:50:44+00:00, end: 2026-02-11 10:50:49+00:00)
+2026-02-11 10:50:49,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:50:44+00:00, end: 2026-02-11 10:50:49+00:00)
+2026-02-11 10:50:54,876 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:50:49+00:00, end: 2026-02-11 10:50:54+00:00)
+2026-02-11 10:50:54,895 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:50:49+00:00, end: 2026-02-11 10:50:54+00:00)
+2026-02-11 10:50:59,873 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:50:54+00:00, end: 2026-02-11 10:50:59+00:00)
+2026-02-11 10:50:59,889 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:50:54+00:00, end: 2026-02-11 10:50:59+00:00)
+2026-02-11 10:51:04,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:50:59+00:00, end: 2026-02-11 10:51:04+00:00)
+2026-02-11 10:51:04,911 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:50:59+00:00, end: 2026-02-11 10:51:04+00:00)
+2026-02-11 10:51:09,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:51:04+00:00, end: 2026-02-11 10:51:09+00:00)
+2026-02-11 10:51:09,912 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:51:04+00:00, end: 2026-02-11 10:51:09+00:00)
+2026-02-11 10:51:15,124 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:51:09+00:00, end: 2026-02-11 10:51:14+00:00)
+2026-02-11 10:51:15,134 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:51:09+00:00, end: 2026-02-11 10:51:14+00:00)
+2026-02-11 11:06:19,999 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 10:51:14+00:00, end: 2026-02-11 11:06:19+00:00)
+2026-02-11 11:06:20,009 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 10:51:14+00:00, end: 2026-02-11 11:06:19+00:00)
+2026-02-11 15:15:49,868 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 11:06:19+00:00, end: 2026-02-11 15:15:49+00:00)
+2026-02-11 15:15:49,880 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 11:06:19+00:00, end: 2026-02-11 15:15:49+00:00)
+2026-02-11 15:15:54,868 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:15:49+00:00, end: 2026-02-11 15:15:54+00:00)
+2026-02-11 15:15:54,880 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:15:49+00:00, end: 2026-02-11 15:15:54+00:00)
+2026-02-11 15:15:59,866 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:15:54+00:00, end: 2026-02-11 15:15:59+00:00)
+2026-02-11 15:15:59,877 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:15:54+00:00, end: 2026-02-11 15:15:59+00:00)
+2026-02-11 15:16:04,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:15:59+00:00, end: 2026-02-11 15:16:04+00:00)
+2026-02-11 15:16:04,895 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:15:59+00:00, end: 2026-02-11 15:16:04+00:00)
+2026-02-11 15:16:09,878 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:16:04+00:00, end: 2026-02-11 15:16:09+00:00)
+2026-02-11 15:16:09,892 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:16:04+00:00, end: 2026-02-11 15:16:09+00:00)
+2026-02-11 15:16:14,863 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:16:09+00:00, end: 2026-02-11 15:16:14+00:00)
+2026-02-11 15:16:14,873 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:16:09+00:00, end: 2026-02-11 15:16:14+00:00)
+2026-02-11 15:16:19,862 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:16:14+00:00, end: 2026-02-11 15:16:19+00:00)
+2026-02-11 15:16:19,873 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:16:14+00:00, end: 2026-02-11 15:16:19+00:00)
+2026-02-11 15:16:24,861 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:16:19+00:00, end: 2026-02-11 15:16:24+00:00)
+2026-02-11 15:16:24,866 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:16:19+00:00, end: 2026-02-11 15:16:24+00:00)
+2026-02-11 15:16:29,864 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:16:24+00:00, end: 2026-02-11 15:16:29+00:00)
+2026-02-11 15:16:29,873 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:16:24+00:00, end: 2026-02-11 15:16:29+00:00)
+2026-02-11 15:16:34,864 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:16:29+00:00, end: 2026-02-11 15:16:34+00:00)
+2026-02-11 15:16:34,876 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:16:29+00:00, end: 2026-02-11 15:16:34+00:00)
+2026-02-11 15:16:39,863 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:16:34+00:00, end: 2026-02-11 15:16:39+00:00)
+2026-02-11 15:16:39,869 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:16:34+00:00, end: 2026-02-11 15:16:39+00:00)
+2026-02-11 15:16:44,860 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:16:39+00:00, end: 2026-02-11 15:16:44+00:00)
+2026-02-11 15:16:44,865 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:16:39+00:00, end: 2026-02-11 15:16:44+00:00)
+2026-02-11 15:16:49,863 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:16:44+00:00, end: 2026-02-11 15:16:49+00:00)
+2026-02-11 15:16:49,871 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:16:44+00:00, end: 2026-02-11 15:16:49+00:00)
+2026-02-11 15:16:54,866 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:16:49+00:00, end: 2026-02-11 15:16:54+00:00)
+2026-02-11 15:16:54,873 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:16:49+00:00, end: 2026-02-11 15:16:54+00:00)
+2026-02-11 15:16:59,866 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:16:54+00:00, end: 2026-02-11 15:16:59+00:00)
+2026-02-11 15:16:59,874 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:16:54+00:00, end: 2026-02-11 15:16:59+00:00)
+2026-02-11 15:17:04,866 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:16:59+00:00, end: 2026-02-11 15:17:04+00:00)
+2026-02-11 15:17:04,872 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:16:59+00:00, end: 2026-02-11 15:17:04+00:00)
+2026-02-11 15:17:09,862 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:17:04+00:00, end: 2026-02-11 15:17:09+00:00)
+2026-02-11 15:17:09,872 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:17:04+00:00, end: 2026-02-11 15:17:09+00:00)
+2026-02-11 15:17:14,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:17:09+00:00, end: 2026-02-11 15:17:14+00:00)
+2026-02-11 15:17:14,917 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:17:09+00:00, end: 2026-02-11 15:17:14+00:00)
+2026-02-11 15:17:19,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:17:14+00:00, end: 2026-02-11 15:17:19+00:00)
+2026-02-11 15:17:19,910 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:17:14+00:00, end: 2026-02-11 15:17:19+00:00)
+2026-02-11 15:17:24,886 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:17:19+00:00, end: 2026-02-11 15:17:24+00:00)
+2026-02-11 15:17:24,921 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:17:19+00:00, end: 2026-02-11 15:17:24+00:00)
+2026-02-11 15:17:29,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:17:24+00:00, end: 2026-02-11 15:17:29+00:00)
+2026-02-11 15:17:29,913 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:17:24+00:00, end: 2026-02-11 15:17:29+00:00)
+2026-02-11 15:17:34,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:17:29+00:00, end: 2026-02-11 15:17:34+00:00)
+2026-02-11 15:17:34,914 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:17:29+00:00, end: 2026-02-11 15:17:34+00:00)
+2026-02-11 15:17:39,883 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:17:34+00:00, end: 2026-02-11 15:17:39+00:00)
+2026-02-11 15:17:39,915 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:17:34+00:00, end: 2026-02-11 15:17:39+00:00)
+2026-02-11 15:17:44,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:17:39+00:00, end: 2026-02-11 15:17:44+00:00)
+2026-02-11 15:17:44,901 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:17:39+00:00, end: 2026-02-11 15:17:44+00:00)
+2026-02-11 15:17:49,882 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:17:44+00:00, end: 2026-02-11 15:17:49+00:00)
+2026-02-11 15:17:50,016 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:17:44+00:00, end: 2026-02-11 15:17:49+00:00)
+2026-02-11 15:17:54,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:17:49+00:00, end: 2026-02-11 15:17:54+00:00)
+2026-02-11 15:17:54,920 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:17:49+00:00, end: 2026-02-11 15:17:54+00:00)
+2026-02-11 15:17:59,880 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:17:54+00:00, end: 2026-02-11 15:17:59+00:00)
+2026-02-11 15:17:59,912 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:17:54+00:00, end: 2026-02-11 15:17:59+00:00)
+2026-02-11 15:18:04,881 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:17:59+00:00, end: 2026-02-11 15:18:04+00:00)
+2026-02-11 15:18:04,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:17:59+00:00, end: 2026-02-11 15:18:04+00:00)
+2026-02-11 15:18:09,884 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:18:04+00:00, end: 2026-02-11 15:18:09+00:00)
+2026-02-11 15:18:09,916 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:18:04+00:00, end: 2026-02-11 15:18:09+00:00)
+2026-02-11 15:18:14,863 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:18:09+00:00, end: 2026-02-11 15:18:14+00:00)
+2026-02-11 15:18:14,871 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:18:09+00:00, end: 2026-02-11 15:18:14+00:00)
+2026-02-11 15:18:19,861 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:18:14+00:00, end: 2026-02-11 15:18:19+00:00)
+2026-02-11 15:18:19,866 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:18:14+00:00, end: 2026-02-11 15:18:19+00:00)
+2026-02-11 15:18:24,864 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:18:19+00:00, end: 2026-02-11 15:18:24+00:00)
+2026-02-11 15:18:24,869 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:18:19+00:00, end: 2026-02-11 15:18:24+00:00)
+2026-02-11 15:18:29,866 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:18:24+00:00, end: 2026-02-11 15:18:29+00:00)
+2026-02-11 15:18:29,872 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:18:24+00:00, end: 2026-02-11 15:18:29+00:00)
+2026-02-11 15:18:34,863 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:18:29+00:00, end: 2026-02-11 15:18:34+00:00)
+2026-02-11 15:18:34,868 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:18:29+00:00, end: 2026-02-11 15:18:34+00:00)
+2026-02-11 15:18:39,865 - basicLogger - DEBUG - Found 0 meal readings (start: 2026-02-11 15:18:34+00:00, end: 2026-02-11 15:18:39+00:00)
+2026-02-11 15:18:39,871 - basicLogger - DEBUG - Found 0 exercise readings (start: 2026-02-11 15:18:34+00:00, end: 2026-02-11 15:18:39+00:00)
