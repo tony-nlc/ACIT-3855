@@ -6,3 +6,7 @@ datastore:
   port: 3306
   db: fitness-app
 
+events:
+  hostname: localhost
+  port: 9092
+  topic: events

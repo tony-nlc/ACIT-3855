@@ -2,15 +2,22 @@ import logging.config
 import yaml
 import connexion
 import functools
+import json
 from datetime import datetime
 from sqlalchemy import create_engine, select
 from sqlalchemy.orm import sessionmaker
 from connexion import NoContent
 from models import Base, Meal, Exercise
 import os
+from pykafka import KafkaClient
+from pykafka.common import OffsetType
+from threading import Thread
+
+# --- 1. Configuration & Logging ---
 base_dir = os.path.dirname(os.path.abspath(__file__))
 app_config_path = os.path.join(base_dir, 'app_conf.yaml')
 log_config_path = os.path.join(base_dir, 'log_conf.yml')
+
 with open(app_config_path, 'r') as f:
     app_config = yaml.safe_load(f.read())
 
@@ -22,115 +29,109 @@ logger = logging.getLogger('basicLogger')
 
 # --- 2. Database Setup ---
 datastore = app_config['datastore']
-# Using 127.0.0.1 to avoid the socket error we saw earlier
 DB_URL = f"mysql+mysqldb://{datastore['user']}:{datastore['password']}@{datastore['hostname']}:{datastore['port']}/{datastore['db']}"
 ENGINE = create_engine(DB_URL)
 Base.metadata.bind = ENGINE
 make_session = sessionmaker(bind=ENGINE)
 
-def use_db_session(func):
-    @functools.wraps(func)
-    def wrapper(*args, **kwargs):
+# --- 3. Kafka Logic ---
+
+def process_messages():
+    """ Process event messages from Kafka """
+    hostname = f"{app_config['events']['hostname']}:{app_config['events']['port']}"
+    client = KafkaClient(hosts=hostname)
+    topic = client.topics[str.encode(app_config['events']['topic'])]
+    
+    # Create a consumer that reads new messages (uncommitted)
+    # reset_offset_on_start=False ensures we pick up where we left off
+    consumer = topic.get_simple_consumer(consumer_group=b'event_group',
+                                         reset_offset_on_start=False,
+                                         auto_offset_reset=OffsetType.LATEST)
+
+    logger.info("Kafka consumer started. Waiting for messages...")
+
+    for msg in consumer:
+        msg_str = msg.value.decode('utf-8')
+        msg_obj = json.loads(msg_str)
+        logger.info("Message received: %s" % msg_obj)
+
+        payload = msg_obj["payload"]
         session = make_session()
+
         try:
-            result = func(session, *args, **kwargs)
-            return result
+            if msg_obj["type"] == "meal": # Match your event type from Receiver
+                new_meal = Meal(
+                    user_id=payload.get('user_id'),
+                    source_device=payload.get('source_device'),
+                    meal_id=payload.get('meal_id'),
+                    trace_id=payload.get('trace_id'),
+                    record_timestamp=datetime.fromisoformat(payload.get('record_timestamp').replace('Z', '+00:00')),
+                    batch_timestamp=datetime.fromisoformat(payload.get('batch_timestamp').replace('Z', '+00:00')),
+                    calories=payload.get('calories'),
+                    meal_type=payload.get('meal_type'),
+                    carbs_g=payload.get('carbs_g'),
+                    protein_g=payload.get('protein_g'),
+                    fat_g=payload.get('fat_g')
+                )
+                session.add(new_meal)
+                logger.debug(f"Stored meal event {payload.get('trace_id')} to DB")
+
+            elif msg_obj["type"] == "exercise": # Match your event type from Receiver
+                new_exercise = Exercise(
+                    user_id=payload.get('user_id'),
+                    trace_id=payload.get('trace_id'),
+                    source_device=payload.get('source_device'),
+                    exercise_id=payload.get('exercise_id'),
+                    record_timestamp=datetime.fromisoformat(payload.get('record_timestamp').replace('Z', '+00:00')),
+                    batch_timestamp=datetime.fromisoformat(payload.get('batch_timestamp').replace('Z', '+00:00')),
+                    type=payload.get('type'),
+                    duration_min=payload.get('duration_min'),
+                    avg_heart_rate=payload.get('avg_heart_rate'),
+                    peak_heart_rate=payload.get('peak_heart_rate')
+                )
+                session.add(new_exercise)
+                logger.debug(f"Stored exercise event {payload.get('trace_id')} to DB")
+
+            session.commit()
+            consumer.commit_offsets() # Tell Kafka we've successfully processed this
+        except Exception as e:
+            logger.error(f"Error processing message: {e}")
+            session.rollback()
         finally:
             session.close()
-    return wrapper
 
-# --- 3. Endpoint Functions ---
+def setup_kafka_thread():
+    t1 = Thread(target=process_messages)
+    t1.setDaemon(True)
+    t1.start()
 
-@use_db_session
-def process_meal_batch(session, body):
-    # Log the receipt of the event (INFO)
-    trace_id=body.get('trace_id')
-    logger.info(f"Received event meal_report with a trace id of {trace_id}")
-    new_meal = Meal(
-        user_id=body.get('user_id'),
-        source_device=body.get('source_device'),
-        meal_id=body.get('meal_id'),
-        trace_id=trace_id,
-        record_timestamp=datetime.fromisoformat(body.get('record_timestamp').replace('Z', '+00:00')),
-        batch_timestamp=datetime.fromisoformat(body.get('batch_timestamp').replace('Z', '+00:00')),
-        calories=body.get('calories'),
-        meal_type=body.get('meal_type'),
-        carbs_g=body.get('carbs_g'),
-        protein_g=body.get('protein_g'),
-        fat_g=body.get('fat_g')
-    )
 
-    session.add(new_meal)
-    session.commit()
-    
-    # Log the response (INFO)
-    logger.info(f"Response for event meal_report (id: {trace_id}) has status 201")
-    
-    # Successful storage log (DEBUG) - This runs after the session logic is done
-    logger.debug(f"Stored event meal_report with a trace id of {trace_id}")
+def get_session():
+    return make_session()
 
-    return NoContent, 201
-
-@use_db_session
-def get_meals_reading(session, start_timestamp, end_timestamp): # Renamed to match OpenAPI
-    # Convert string timestamps to datetime objects
+def get_meals_reading(start_timestamp, end_timestamp):
+    session = make_session()
     start = datetime.fromisoformat(start_timestamp.replace('Z', '+00:00'))
     end = datetime.fromisoformat(end_timestamp.replace('Z', '+00:00'))
-
     statement = select(Meal).where(Meal.record_timestamp >= start).where(Meal.record_timestamp < end)
     results = session.execute(statement).scalars().all()
-
     res_list = [meal.to_dict() for meal in results]
-
-    logger.debug("Found %d meal readings (start: %s, end: %s)", len(res_list), start, end)
+    session.close()
     return res_list, 200
 
-
-@use_db_session
-def process_exercise_batch(session, body):
-    trace_id=body.get('trace_id')
-    logger.info(f"Received event exercise_report with a trace id of {trace_id}")
-    new_exercise = Exercise(
-        user_id=body.get('user_id'),
-        trace_id=trace_id,
-        source_device=body.get('source_device'),
-        exercise_id=body.get('exercise_id'),
-        record_timestamp=datetime.fromisoformat(body.get('record_timestamp').replace('Z', '+00:00')),
-        batch_timestamp=datetime.fromisoformat(body.get('batch_timestamp').replace('Z', '+00:00')),
-        type=body.get('type'),
-        duration_min=body.get('duration_min'),
-        avg_heart_rate=body.get('avg_heart_rate'),
-        peak_heart_rate=body.get('peak_heart_rate')
-    )
-
-    session.add(new_exercise)
-    session.commit()
-
-    logger.info(f"Response for event exercise_report (id: {trace_id}) has status 201")
-    logger.debug(f"Stored event exercise_report with a trace id of {trace_id}")
-
-    return NoContent, 201
-
-
-@use_db_session
-def get_exercise_reading(session, start_timestamp, end_timestamp):
+def get_exercise_reading(start_timestamp, end_timestamp):
+    session = make_session()
     start = datetime.fromisoformat(start_timestamp.replace('Z', '+00:00'))
     end = datetime.fromisoformat(end_timestamp.replace('Z', '+00:00'))
-
     statement = select(Exercise).where(Exercise.record_timestamp >= start).where(Exercise.record_timestamp < end)
     results = session.execute(statement).scalars().all()
-
     res_list = [ex.to_dict() for ex in results]
-
-    logger.debug("Found %d exercise readings (start: %s, end: %s)", len(res_list), start, end)
+    session.close()
     return res_list, 200
 
-
 app = connexion.FlaskApp(__name__, specification_dir="")
-app.add_api("openapi.yaml",
-            strict_validation=True,
-            validate_responses=True)
+app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
-    # This is the "ignition" for your server
+    setup_kafka_thread()
     app.run(port=8090)
