@@ -3,5 +3,5 @@ venv
 *.db
 __pycache__
 path
-.log
+*.log
 *.json
