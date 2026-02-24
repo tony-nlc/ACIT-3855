@@ -29,7 +29,6 @@ services:
     restart: always
     environment:
       MYSQL_RANDOM_ROOT_PASSWORD: 1
-      # Change these below
       MYSQL_DATABASE: 'fitness-app'
       MYSQL_USER: 'admin'
       MYSQL_PASSWORD: 'password'
